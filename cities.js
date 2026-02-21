@@ -5,7 +5,7 @@ const cities = [
     "lat": 29.55,
     "lng": 106.50694444444,
     "population": 32054159,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Delhi",
@@ -53,7 +53,7 @@ const cities = [
     "lat": 23.728888888889,
     "lng": 90.394444444444,
     "population": 16800000,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Istanbul",
@@ -93,7 +93,7 @@ const cities = [
     "lat": -4.3219444444444,
     "lng": 15.311944444444,
     "population": 14565700,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Tokyo",
@@ -125,7 +125,7 @@ const cities = [
     "lat": -34.6083,
     "lng": -58.3719,
     "population": 13985794,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Moscow",
@@ -141,7 +141,7 @@ const cities = [
     "lat": 12.9791198,
     "lng": 77.5912997,
     "population": 12327000,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Rio de Janeiro",
@@ -165,7 +165,7 @@ const cities = [
     "lat": -6.1752777777778,
     "lng": 106.82694444444,
     "population": 11135191,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Lahore",
@@ -173,7 +173,7 @@ const cities = [
     "lat": 31.549722222222,
     "lng": 74.343611111111,
     "population": 11126285,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Lima",
@@ -205,7 +205,7 @@ const cities = [
     "lat": 17.361666666667,
     "lng": 78.474722222222,
     "population": 9305000,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Kuala Lumpur",
@@ -261,7 +261,7 @@ const cities = [
     "lat": 23.021944444444,
     "lng": 72.579722222222,
     "population": 7645000,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Riyadh",
@@ -269,7 +269,7 @@ const cities = [
     "lat": 24.65,
     "lng": 46.71,
     "population": 7009100,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Yangon",
@@ -285,7 +285,7 @@ const cities = [
     "lat": 13.0825,
     "lng": 80.275,
     "population": 6599000,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Santiago",
@@ -301,7 +301,7 @@ const cities = [
     "lat": 25.45,
     "lng": 81.85,
     "population": 5954391,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Pune",
@@ -309,7 +309,7 @@ const cities = [
     "lat": 18.521111111111,
     "lng": 73.855277777778,
     "population": 5945000,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Surat",
@@ -317,7 +317,7 @@ const cities = [
     "lat": 21.205,
     "lng": 72.84,
     "population": 5935000,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Singapore",
@@ -325,7 +325,7 @@ const cities = [
     "lat": 1.3,
     "lng": 103.8,
     "population": 5866139,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Ankara",
@@ -333,7 +333,7 @@ const cities = [
     "lat": 39.93576,
     "lng": 32.83869,
     "population": 5803482,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Addis Ababa",
@@ -341,7 +341,7 @@ const cities = [
     "lat": 9.0272222222222,
     "lng": 38.736944444444,
     "population": 5704000,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Bangkok",
@@ -349,7 +349,7 @@ const cities = [
     "lat": 13.75,
     "lng": 100.51666666667,
     "population": 5676648,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Saint Petersburg",
@@ -389,7 +389,7 @@ const cities = [
     "lat": 31.1975,
     "lng": 29.8925,
     "population": 5362517,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Melbourne",
@@ -413,7 +413,7 @@ const cities = [
     "lat": 34.532777777778,
     "lng": 69.165833333333,
     "population": 5333284,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Johannesburg",
@@ -437,7 +437,7 @@ const cities = [
     "lat": 21.542777777778,
     "lng": 39.172777777778,
     "population": 4697000,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Kolkata",
@@ -445,7 +445,7 @@ const cities = [
     "lat": 22.5675,
     "lng": 88.37,
     "population": 4496694,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "İzmir",
@@ -453,7 +453,7 @@ const cities = [
     "lat": 38.41273,
     "lng": 27.13838,
     "population": 4493242,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Kano",
@@ -461,7 +461,7 @@ const cities = [
     "lat": 12.0022,
     "lng": 8.592,
     "population": 4348000,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Bamako",
@@ -477,7 +477,7 @@ const cities = [
     "lat": 25.0125,
     "lng": 121.465,
     "population": 4046037,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Amman",
@@ -485,7 +485,7 @@ const cities = [
     "lat": 31.95,
     "lng": 35.933333333333,
     "population": 4007526,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Dubai",
@@ -493,7 +493,7 @@ const cities = [
     "lat": 25.269722222222,
     "lng": 55.309444444444,
     "population": 3944751,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Kumasi",
@@ -533,7 +533,7 @@ const cities = [
     "lat": 35.433333333333,
     "lng": 139.65,
     "population": 3757630,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "eThekwini",
@@ -541,7 +541,7 @@ const cities = [
     "lat": -29.866666666667,
     "lng": 31.016666666667,
     "population": 3702231,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Madrid",
@@ -557,7 +557,7 @@ const cities = [
     "lat": 4.765466,
     "lng": 7.016316,
     "population": 3480000,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Busan",
@@ -565,7 +565,7 @@ const cities = [
     "lat": 35.18,
     "lng": 129.075,
     "population": 3453198,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Lucknow",
@@ -573,7 +573,7 @@ const cities = [
     "lat": 26.847,
     "lng": 80.947,
     "population": 3382000,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Ekurhuleni",
@@ -581,7 +581,7 @@ const cities = [
     "lat": -26.1989,
     "lng": 28.31262,
     "population": 3379104,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Tshwane",
@@ -589,7 +589,7 @@ const cities = [
     "lat": -25.666666666667,
     "lng": 28.333333333333,
     "population": 3275152,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Casablanca",
@@ -597,7 +597,7 @@ const cities = [
     "lat": 33.599166666667,
     "lng": -7.62,
     "population": 3215935,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Cần Thơ",
@@ -605,7 +605,7 @@ const cities = [
     "lat": 10.1547298,
     "lng": 105.5005357,
     "population": 3207000,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Faisalabad",
@@ -613,7 +613,7 @@ const cities = [
     "lat": 31.418,
     "lng": 73.079,
     "population": 3203846,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Santa Cruz de la Sierra",
@@ -629,7 +629,7 @@ const cities = [
     "lat": 26.915,
     "lng": 75.82,
     "population": 3073350,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Kanpur",
@@ -637,7 +637,7 @@ const cities = [
     "lat": 26.4725,
     "lng": 80.331111111111,
     "population": 3067700,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Incheon",
@@ -645,7 +645,7 @@ const cities = [
     "lat": 37.463888888889,
     "lng": 126.64861111111,
     "population": 3049315,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Taichung",
@@ -653,7 +653,7 @@ const cities = [
     "lat": 24.143888888889,
     "lng": 120.67944444444,
     "population": 3033885,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Brasília",
@@ -669,7 +669,7 @@ const cities = [
     "lat": 29.375,
     "lng": 47.98,
     "population": 2989000,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Sanaa",
@@ -677,7 +677,7 @@ const cities = [
     "lat": 15.35,
     "lng": 44.2,
     "population": 2957000,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Tashkent",
@@ -701,7 +701,7 @@ const cities = [
     "lat": 40.191330555556,
     "lng": 29.080538888889,
     "population": 2901396,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Mbuji-Mayi",
@@ -749,7 +749,7 @@ const cities = [
     "lat": 34.69375,
     "lng": 135.50211111111,
     "population": 2751862,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Rome",
@@ -773,7 +773,7 @@ const cities = [
     "lat": 22.615,
     "lng": 120.2975,
     "population": 2733964,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Brisbane",
@@ -781,7 +781,7 @@ const cities = [
     "lat": -27.467777777778,
     "lng": 153.02777777778,
     "population": 2706966,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Damascus",
@@ -789,7 +789,7 @@ const cities = [
     "lat": 33.513055555556,
     "lng": 36.291944444444,
     "population": 2685360,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Guayaquil",
@@ -813,7 +813,7 @@ const cities = [
     "lat": -3.7275,
     "lng": -38.5275,
     "population": 2578483,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Ibadan",
@@ -821,7 +821,7 @@ const cities = [
     "lat": 7.3775,
     "lng": 3.9058333333333,
     "population": 2550593,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "El Paso–Juárez",
@@ -829,7 +829,7 @@ const cities = [
     "lat": 31.73944444,
     "lng": -106.48694444,
     "population": 2539946,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Medellín",
@@ -853,7 +853,7 @@ const cities = [
     "lat": 23.136666666667,
     "lng": -82.358888888889,
     "population": 2492618,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Luanda",
@@ -893,7 +893,7 @@ const cities = [
     "lat": 35.871666666667,
     "lng": 128.60166666667,
     "population": 2444412,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Yaoundé",
@@ -909,7 +909,7 @@ const cities = [
     "lat": 36.90812,
     "lng": 30.69556,
     "population": 2426356,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Beirut",
@@ -917,7 +917,7 @@ const cities = [
     "lat": 33.886944444444,
     "lng": 35.513055555556,
     "population": 2421354,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Salvador",
@@ -925,7 +925,7 @@ const cities = [
     "lat": -12.983055555556,
     "lng": -38.492777777778,
     "population": 2417678,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Nagpur",
@@ -933,7 +933,7 @@ const cities = [
     "lat": 21.149722222222,
     "lng": 79.080555555556,
     "population": 2405665,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Algiers",
@@ -941,7 +941,7 @@ const cities = [
     "lat": 36.776388888889,
     "lng": 3.0586111111111,
     "population": 2364230,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Nagoya",
@@ -949,7 +949,7 @@ const cities = [
     "lat": 35.181388888889,
     "lng": 136.90638888889,
     "population": 2326844,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Belo Horizonte",
@@ -957,7 +957,7 @@ const cities = [
     "lat": -19.928055555556,
     "lng": -43.941944444444,
     "population": 2315560,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Houston",
@@ -973,7 +973,7 @@ const cities = [
     "lat": -3.1188888888889,
     "lng": -60.021666666667,
     "population": 2303732,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Baku",
@@ -989,7 +989,7 @@ const cities = [
     "lat": 37.8725,
     "lng": 32.491944444444,
     "population": 2296347,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Caracas",
@@ -1013,7 +1013,7 @@ const cities = [
     "lat": 18.4625,
     "lng": -69.936111111111,
     "population": 2201941,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Lomé",
@@ -1037,7 +1037,7 @@ const cities = [
     "lat": -31.955833333333,
     "lng": 115.85972222222,
     "population": 2141834,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Phnom Penh",
@@ -1045,7 +1045,7 @@ const cities = [
     "lat": 11.569583333333,
     "lng": 104.92102777778,
     "population": 2129371,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Haiphong",
@@ -1053,7 +1053,7 @@ const cities = [
     "lat": 20.8,
     "lng": 106.66666666667,
     "population": 2124500,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Mogadishu",
@@ -1061,7 +1061,7 @@ const cities = [
     "lat": 2.0391666666667,
     "lng": 45.341944444444,
     "population": 2120000,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Paris",
@@ -1077,7 +1077,7 @@ const cities = [
     "lat": 33.6007,
     "lng": 73.0679,
     "population": 2098231,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Vadodara",
@@ -1085,7 +1085,7 @@ const cities = [
     "lat": 22.3,
     "lng": 73.2,
     "population": 2065771,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Rajkot",
@@ -1093,7 +1093,7 @@ const cities = [
     "lat": 22.296908333333,
     "lng": 70.798363888889,
     "population": 2043000,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Visakhapatnam",
@@ -1101,7 +1101,7 @@ const cities = [
     "lat": 17.693888888889,
     "lng": 83.292222222222,
     "population": 2035922,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Vienna",
@@ -1109,7 +1109,7 @@ const cities = [
     "lat": 48.208333333333,
     "lng": 16.3725,
     "population": 2028289,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Gujranwala",
@@ -1117,7 +1117,7 @@ const cities = [
     "lat": 32.15,
     "lng": 74.183333333333,
     "population": 2027001,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Aleppo",
@@ -1125,7 +1125,7 @@ const cities = [
     "lat": 36.2,
     "lng": 37.16,
     "population": 2003671,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Minsk",
@@ -1133,7 +1133,7 @@ const cities = [
     "lat": 53.902246,
     "lng": 27.561837,
     "population": 1996730,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Indore",
@@ -1141,7 +1141,7 @@ const cities = [
     "lat": 22.718611111111,
     "lng": 75.855,
     "population": 1994397,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Şanlıurfa",
@@ -1149,7 +1149,7 @@ const cities = [
     "lat": 37.158333333333,
     "lng": 38.791666666667,
     "population": 1985753,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Kananga",
@@ -1173,7 +1173,7 @@ const cities = [
     "lat": 32.536447,
     "lng": -117.037155,
     "population": 1964788,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Isfahan",
@@ -1181,7 +1181,7 @@ const cities = [
     "lat": 32.6525,
     "lng": 51.675,
     "population": 1961260,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Sapporo",
@@ -1189,7 +1189,7 @@ const cities = [
     "lat": 43.061944444444,
     "lng": 141.35444444444,
     "population": 1959313,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Kocaeli",
@@ -1197,7 +1197,7 @@ const cities = [
     "lat": 40.764444444444,
     "lng": 29.945,
     "population": 1953035,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Irbid",
@@ -1221,7 +1221,7 @@ const cities = [
     "lat": 50.25,
     "lng": 19.0,
     "population": 1903000,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Tainan",
@@ -1229,7 +1229,7 @@ const cities = [
     "lat": 22.99,
     "lng": 120.185,
     "population": 1874686,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Multan",
@@ -1237,7 +1237,7 @@ const cities = [
     "lat": 30.197777777778,
     "lng": 71.471111111111,
     "population": 1871843,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Warsaw",
@@ -1245,7 +1245,7 @@ const cities = [
     "lat": 52.23,
     "lng": 21.011111111111,
     "population": 1862402,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Davao City",
@@ -1253,7 +1253,7 @@ const cities = [
     "lat": 7.0662333333333,
     "lng": 125.60944166667,
     "population": 1848947,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Montreal",
@@ -1269,7 +1269,7 @@ const cities = [
     "lat": 23.25,
     "lng": 77.416666666667,
     "population": 1798218,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Mosul",
@@ -1293,7 +1293,7 @@ const cities = [
     "lat": 5.55602,
     "lng": -0.1969,
     "population": 1782150,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Benin",
@@ -1301,7 +1301,7 @@ const cities = [
     "lat": 6.3176,
     "lng": 5.6145,
     "population": 1780000,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Curitiba",
@@ -1309,7 +1309,7 @@ const cities = [
     "lat": -25.429722222222,
     "lng": -49.271944444444,
     "population": 1773718,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Adana",
@@ -1317,7 +1317,7 @@ const cities = [
     "lat": 37.00262,
     "lng": 35.31346,
     "population": 1765981,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Garoua",
@@ -1333,7 +1333,7 @@ const cities = [
     "lat": -1.9525,
     "lng": 30.115,
     "population": 1745555,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Diyarbakır",
@@ -1341,7 +1341,7 @@ const cities = [
     "lat": 37.910833333333,
     "lng": 40.236666666667,
     "population": 1732396,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Barcelona",
@@ -1357,7 +1357,7 @@ const cities = [
     "lat": 44.413361111111,
     "lng": 26.097777777778,
     "population": 1716961,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Abuja",
@@ -1373,7 +1373,7 @@ const cities = [
     "lat": 47.498333333333,
     "lng": 19.040833333333,
     "population": 1685209,
-    "difficulty": "hard"
+    "difficulty": "easy"
   },
   {
     "name": "Patna",
@@ -1381,7 +1381,7 @@ const cities = [
     "lat": 25.61,
     "lng": 85.141388888889,
     "population": 1684222,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Belgrade",
@@ -1389,7 +1389,7 @@ const cities = [
     "lat": 44.81666668,
     "lng": 20.46666668,
     "population": 1681405,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Gaziantep",
@@ -1397,7 +1397,7 @@ const cities = [
     "lat": 37.062777777778,
     "lng": 37.379166666667,
     "population": 1680723,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Kampala",
@@ -1429,7 +1429,7 @@ const cities = [
     "lat": 55.033333333333,
     "lng": 82.916666666667,
     "population": 1637266,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Ludhiana",
@@ -1437,7 +1437,7 @@ const cities = [
     "lat": 30.908333333333,
     "lng": 75.848611111111,
     "population": 1618879,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Phoenix",
@@ -1461,7 +1461,7 @@ const cities = [
     "lat": 33.59,
     "lng": 130.40166666667,
     "population": 1603043,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Agra",
@@ -1477,7 +1477,7 @@ const cities = [
     "lat": 21.121944444444,
     "lng": -101.68333333333,
     "population": 1579803,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Abu Dhabi",
@@ -1485,7 +1485,7 @@ const cities = [
     "lat": 24.451111111111,
     "lng": 54.396944444444,
     "population": 1570000,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Madurai",
@@ -1493,7 +1493,7 @@ const cities = [
     "lat": 9.9196611111111,
     "lng": 78.119394444444,
     "population": 1561129,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Jamshedpur",
@@ -1501,7 +1501,7 @@ const cities = [
     "lat": 22.8,
     "lng": 86.183333333333,
     "population": 1558000,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Maracaibo",
@@ -1509,7 +1509,7 @@ const cities = [
     "lat": 10.633333333333,
     "lng": -71.633333333333,
     "population": 1551539,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Kobe",
@@ -1517,7 +1517,7 @@ const cities = [
     "lat": 34.690166666667,
     "lng": 135.19544444444,
     "population": 1521707,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Munich",
@@ -1549,7 +1549,7 @@ const cities = [
     "lat": 35.166666666667,
     "lng": 126.91666666667,
     "population": 1490092,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Recife",
@@ -1557,7 +1557,7 @@ const cities = [
     "lat": -8.0538888888889,
     "lng": -34.880833333333,
     "population": 1488920,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Nashik",
@@ -1565,7 +1565,7 @@ const cities = [
     "lat": 20.0,
     "lng": 73.783333333333,
     "population": 1486053,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Valencia",
@@ -1581,7 +1581,7 @@ const cities = [
     "lat": 6.1666666666667,
     "lng": 6.7833333333333,
     "population": 1483000,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Daejeon",
@@ -1589,7 +1589,7 @@ const cities = [
     "lat": 36.35,
     "lng": 127.385,
     "population": 1475221,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Auckland",
@@ -1597,7 +1597,7 @@ const cities = [
     "lat": -36.849166666667,
     "lng": 174.76527777778,
     "population": 1470100,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Yekaterinburg",
@@ -1605,7 +1605,7 @@ const cities = [
     "lat": 56.835555555556,
     "lng": 60.612777777778,
     "population": 1468833,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Kyoto",
@@ -1629,7 +1629,7 @@ const cities = [
     "lat": 14.672555555556,
     "lng": -17.432,
     "population": 1438725,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Goiânia",
@@ -1637,7 +1637,7 @@ const cities = [
     "lat": -16.680555555556,
     "lng": -49.256388888889,
     "population": 1437366,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Metropolis of Lyon",
@@ -1661,7 +1661,7 @@ const cities = [
     "lat": 23.613888888889,
     "lng": 58.592222222222,
     "population": 1421409,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Kharkiv",
@@ -1685,7 +1685,7 @@ const cities = [
     "lat": 24.47,
     "lng": 39.61,
     "population": 1411599,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Faridabad",
@@ -1693,7 +1693,7 @@ const cities = [
     "lat": 28.416666666667,
     "lng": 77.3,
     "population": 1404653,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Prague",
@@ -1701,7 +1701,7 @@ const cities = [
     "lat": 50.0875,
     "lng": 14.421388888889,
     "population": 1397880,
-    "difficulty": "hard"
+    "difficulty": "easy"
   },
   {
     "name": "Ulaanbaatar",
@@ -1717,7 +1717,7 @@ const cities = [
     "lat": 38.7225,
     "lng": 35.4875,
     "population": 1389680,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Porto Alegre",
@@ -1725,7 +1725,7 @@ const cities = [
     "lat": -30.032777777778,
     "lng": -51.23,
     "population": 1388794,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Adelaide",
@@ -1733,7 +1733,7 @@ const cities = [
     "lat": -34.9275,
     "lng": 138.6,
     "population": 1387290,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Guadalajara",
@@ -1741,7 +1741,7 @@ const cities = [
     "lat": 20.676388888889,
     "lng": -103.34222222222,
     "population": 1385621,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Samsun",
@@ -1749,7 +1749,7 @@ const cities = [
     "lat": 41.286666666667,
     "lng": 36.33,
     "population": 1368488,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Kisangani",
@@ -1781,7 +1781,7 @@ const cities = [
     "lat": 55.790833333333,
     "lng": 49.114444444444,
     "population": 1329825,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Barranquilla",
@@ -1805,7 +1805,7 @@ const cities = [
     "lat": 51.05,
     "lng": -114.06666666667,
     "population": 1306784,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Meerut",
@@ -1813,7 +1813,7 @@ const cities = [
     "lat": 28.98,
     "lng": 77.706388888889,
     "population": 1305429,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Dallas",
@@ -1829,7 +1829,7 @@ const cities = [
     "lat": -1.4558333333333,
     "lng": -48.503888888889,
     "population": 1303403,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Montevideo",
@@ -1845,7 +1845,7 @@ const cities = [
     "lat": -22.758888888889,
     "lng": -43.450833333333,
     "population": 1297704,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Tripoli",
@@ -1853,7 +1853,7 @@ const cities = [
     "lat": 32.87519,
     "lng": 13.18746,
     "population": 1293016,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Tangier",
@@ -1877,7 +1877,7 @@ const cities = [
     "lat": 23.166666666667,
     "lng": 79.933333333333,
     "population": 1267564,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Nelson Mandela Bay",
@@ -1885,7 +1885,7 @@ const cities = [
     "lat": -33.95,
     "lng": 25.6,
     "population": 1263051,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Brussels",
@@ -1893,7 +1893,7 @@ const cities = [
     "lat": 50.846666666667,
     "lng": 4.3525,
     "population": 1255795,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Balıkesir",
@@ -1901,7 +1901,7 @@ const cities = [
     "lat": 39.651111111111,
     "lng": 27.884166666667,
     "population": 1250610,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Huế",
@@ -1917,7 +1917,7 @@ const cities = [
     "lat": 37.285833333333,
     "lng": 127.01,
     "population": 1234300,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Hargeisa",
@@ -1933,7 +1933,7 @@ const cities = [
     "lat": 21.97473,
     "lng": 96.08359,
     "population": 1225546,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Vasai-Virar",
@@ -1941,7 +1941,7 @@ const cities = [
     "lat": 19.47,
     "lng": 72.8,
     "population": 1222390,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Campinas",
@@ -1949,7 +1949,7 @@ const cities = [
     "lat": -22.900913888889,
     "lng": -47.057294444444,
     "population": 1213792,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Mombasa",
@@ -1965,7 +1965,7 @@ const cities = [
     "lat": 42.697886,
     "lng": 23.321726,
     "population": 1205548,
-    "difficulty": "hard"
+    "difficulty": "easy"
   },
   {
     "name": "Varanasi",
@@ -1973,7 +1973,7 @@ const cities = [
     "lat": 25.318888888889,
     "lng": 83.012777777778,
     "population": 1198491,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Nizhny Novgorod",
@@ -1981,7 +1981,7 @@ const cities = [
     "lat": 56.326944444444,
     "lng": 44.0075,
     "population": 1198245,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Hiroshima",
@@ -2005,7 +2005,7 @@ const cities = [
     "lat": 11.833333333333,
     "lng": 13.15,
     "population": 1197497,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Rosario",
@@ -2013,7 +2013,7 @@ const cities = [
     "lat": -32.9575,
     "lng": -60.639444444444,
     "population": 1193605,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Shymkent",
@@ -2037,7 +2037,7 @@ const cities = [
     "lat": 25.286205555556,
     "lng": 51.529436111111,
     "population": 1186023,
-    "difficulty": "hard"
+    "difficulty": "easy"
   },
   {
     "name": "Ahvaz",
@@ -2045,7 +2045,7 @@ const cities = [
     "lat": 31.318888888889,
     "lng": 48.684166666667,
     "population": 1184788,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Srinagar",
@@ -2053,7 +2053,7 @@ const cities = [
     "lat": 34.091111111111,
     "lng": 74.806111111111,
     "population": 1180570,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Chelyabinsk",
@@ -2061,7 +2061,7 @@ const cities = [
     "lat": 55.15,
     "lng": 61.4,
     "population": 1176770,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Aurangabad",
@@ -2069,7 +2069,7 @@ const cities = [
     "lat": 19.88,
     "lng": 75.32,
     "population": 1175116,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Fez",
@@ -2093,7 +2093,7 @@ const cities = [
     "lat": 5.1166666666667,
     "lng": 7.3666666666667,
     "population": 1160000,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Krasnodar",
@@ -2101,7 +2101,7 @@ const cities = [
     "lat": 45.033333333333,
     "lng": 38.983333333333,
     "population": 1154885,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Aden",
@@ -2109,7 +2109,7 @@ const cities = [
     "lat": 12.8,
     "lng": 45.033333333333,
     "population": 1154410,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Samara",
@@ -2117,7 +2117,7 @@ const cities = [
     "lat": 53.183333333333,
     "lng": 50.116666666667,
     "population": 1154223,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Ufa",
@@ -2125,7 +2125,7 @@ const cities = [
     "lat": 54.726111111111,
     "lng": 55.9475,
     "population": 1144809,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Monterrey",
@@ -2133,7 +2133,7 @@ const cities = [
     "lat": 25.684444444444,
     "lng": -100.31805555556,
     "population": 1142952,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Birmingham",
@@ -2149,7 +2149,7 @@ const cities = [
     "lat": 47.2225,
     "lng": 39.71,
     "population": 1135968,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Maputo",
@@ -2165,7 +2165,7 @@ const cities = [
     "lat": 31.626917,
     "lng": 74.87704,
     "population": 1132383,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Van",
@@ -2173,7 +2173,7 @@ const cities = [
     "lat": 38.501944444444,
     "lng": 43.416666666667,
     "population": 1127612,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Ulsan",
@@ -2181,7 +2181,7 @@ const cities = [
     "lat": 35.55,
     "lng": 129.31666666667,
     "population": 1127553,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Tbilisi",
@@ -2189,7 +2189,7 @@ const cities = [
     "lat": 41.7225,
     "lng": 44.7925,
     "population": 1118035,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Guwahati",
@@ -2197,7 +2197,7 @@ const cities = [
     "lat": 26.1805876,
     "lng": 91.750238,
     "population": 1116267,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Yerevan",
@@ -2213,7 +2213,7 @@ const cities = [
     "lat": 10.246944444444,
     "lng": -67.595833333333,
     "population": 1102088,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Omsk",
@@ -2221,7 +2221,7 @@ const cities = [
     "lat": 54.966666666667,
     "lng": 73.383333333333,
     "population": 1101367,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Krasnoyarsk",
@@ -2229,7 +2229,7 @@ const cities = [
     "lat": 56.008888888889,
     "lng": 92.871944444444,
     "population": 1092851,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "N'Djamena",
@@ -2261,7 +2261,7 @@ const cities = [
     "lat": 23.355555555556,
     "lng": 85.334722222222,
     "population": 1073440,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Gwalior",
@@ -2269,7 +2269,7 @@ const cities = [
     "lat": 26.2125,
     "lng": 78.1775,
     "population": 1069276,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Sendai",
@@ -2277,7 +2277,7 @@ const cities = [
     "lat": 38.268222222222,
     "lng": 140.86941666667,
     "population": 1061177,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Barquisimeto",
@@ -2285,7 +2285,7 @@ const cities = [
     "lat": 10.067777777778,
     "lng": -69.346694444444,
     "population": 1059092,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Tegucigalpa",
@@ -2301,7 +2301,7 @@ const cities = [
     "lat": 30.736388888889,
     "lng": 76.788333333333,
     "population": 1055450,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Vijayawada",
@@ -2309,7 +2309,7 @@ const cities = [
     "lat": 16.516666666667,
     "lng": 80.616666666667,
     "population": 1048240,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Voronezh",
@@ -2317,7 +2317,7 @@ const cities = [
     "lat": 51.671666666667,
     "lng": 39.210555555556,
     "population": 1041722,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Mersin",
@@ -2325,7 +2325,7 @@ const cities = [
     "lat": 36.8,
     "lng": 34.616666666667,
     "population": 1040507,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "São Luís",
@@ -2333,7 +2333,7 @@ const cities = [
     "lat": -2.53,
     "lng": -44.302777777778,
     "population": 1037775,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Jodhpur",
@@ -2341,7 +2341,7 @@ const cities = [
     "lat": 26.294444444444,
     "lng": 73.027777777778,
     "population": 1033918,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Ogbomosho",
@@ -2349,7 +2349,7 @@ const cities = [
     "lat": 8.1333333333333,
     "lng": 4.25,
     "population": 1032000,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Ashgabat",
@@ -2365,7 +2365,7 @@ const cities = [
     "lat": 6.4402777777778,
     "lng": 7.4941666666667,
     "population": 1029400,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Denizli",
@@ -2373,7 +2373,7 @@ const cities = [
     "lat": 37.783333333333,
     "lng": 29.096388888889,
     "population": 1027782,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Perm",
@@ -2381,7 +2381,7 @@ const cities = [
     "lat": 58.013888888889,
     "lng": 56.248888888889,
     "population": 1027518,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Monrovia",
@@ -2397,7 +2397,7 @@ const cities = [
     "lat": 6.9041666666667,
     "lng": 122.07611111111,
     "population": 1018849,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Ottawa",
@@ -2413,7 +2413,7 @@ const cities = [
     "lat": 37.304166666667,
     "lng": -121.87277777778,
     "population": 1013240,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Volgograd",
@@ -2421,7 +2421,7 @@ const cities = [
     "lat": 48.708611111111,
     "lng": 44.514722222222,
     "population": 1012219,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Edmonton",
@@ -2429,7 +2429,7 @@ const cities = [
     "lat": 53.533333333333,
     "lng": -113.5,
     "population": 1010899,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Odesa",
@@ -2445,7 +2445,7 @@ const cities = [
     "lat": 21.2379468,
     "lng": 81.6336833,
     "population": 1010087,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Changwon",
@@ -2453,7 +2453,7 @@ const cities = [
     "lat": 35.228055555556,
     "lng": 128.68111111111,
     "population": 1009998,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Arequipa",
@@ -2485,7 +2485,7 @@ const cities = [
     "lat": 25.18,
     "lng": 75.83,
     "population": 1001694,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Bareilly",
@@ -2493,7 +2493,7 @@ const cities = [
     "lat": 28.364,
     "lng": 79.415,
     "population": 1000000,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Guatemala City",
@@ -2501,7 +2501,7 @@ const cities = [
     "lat": 14.641666666667,
     "lng": -90.513333333333,
     "population": 994938,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Lilongwe",
@@ -2517,7 +2517,7 @@ const cities = [
     "lat": 18.546944444444,
     "lng": -72.340277777778,
     "population": 987310,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Stockholm",
@@ -2525,7 +2525,7 @@ const cities = [
     "lat": 59.329444444444,
     "lng": 18.068611111111,
     "population": 984748,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Chiba",
@@ -2533,7 +2533,7 @@ const cities = [
     "lat": 35.607277777778,
     "lng": 140.10636111111,
     "population": 975014,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Kirkuk",
@@ -2557,7 +2557,7 @@ const cities = [
     "lat": 10.293,
     "lng": 123.902,
     "population": 965332,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Asmara",
@@ -2573,7 +2573,7 @@ const cities = [
     "lat": -20.468611111111,
     "lng": -54.622222222222,
     "population": 962883,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Austin",
@@ -2589,7 +2589,7 @@ const cities = [
     "lat": 11.000833333333,
     "lng": 76.963333333333,
     "population": 959823,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Solapur",
@@ -2597,7 +2597,7 @@ const cities = [
     "lat": 17.670277777778,
     "lng": 75.901111111111,
     "population": 951558,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Freetown",
@@ -2629,7 +2629,7 @@ const cities = [
     "lat": 34.316666666667,
     "lng": 47.068611111111,
     "population": 946651,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Salé",
@@ -2637,7 +2637,7 @@ const cities = [
     "lat": 34.05,
     "lng": -6.816667,
     "population": 945101,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Kingston",
@@ -2645,7 +2645,7 @@ const cities = [
     "lat": 17.971388888889,
     "lng": -76.793055555556,
     "population": 937700,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Managua",
@@ -2669,7 +2669,7 @@ const cities = [
     "lat": 33.883416666667,
     "lng": 130.87519444444,
     "population": 935084,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Aguascalientes",
@@ -2677,7 +2677,7 @@ const cities = [
     "lat": 21.880833333333,
     "lng": -102.29611111111,
     "population": 934424,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Khulna",
@@ -2693,7 +2693,7 @@ const cities = [
     "lat": 28.636944444444,
     "lng": -106.07694444444,
     "population": 925762,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Amsterdam",
@@ -2701,7 +2701,7 @@ const cities = [
     "lat": 52.366666666667,
     "lng": 4.8833333333333,
     "population": 921468,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Trujillo",
@@ -2709,7 +2709,7 @@ const cities = [
     "lat": -8.1119444444444,
     "lng": -79.028888888889,
     "population": 919899,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Fort Worth",
@@ -2725,7 +2725,7 @@ const cities = [
     "lat": 10.826944444444,
     "lng": 78.692777777778,
     "population": 916857,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Cartagena",
@@ -2749,7 +2749,7 @@ const cities = [
     "lat": 5.4833333333333,
     "lng": 7.0333333333333,
     "population": 908109,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Columbus",
@@ -2781,7 +2781,7 @@ const cities = [
     "lat": 26.433333333333,
     "lng": 50.1,
     "population": 903312,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Donetsk",
@@ -2805,7 +2805,7 @@ const cities = [
     "lat": 20.97,
     "lng": -89.62,
     "population": 892363,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Bangui",
@@ -2821,7 +2821,7 @@ const cities = [
     "lat": 7.15,
     "lng": 3.35,
     "population": 888924,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Cancun",
@@ -2837,7 +2837,7 @@ const cities = [
     "lat": 28.838888888889,
     "lng": 78.776944444444,
     "population": 887871,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Indianapolis",
@@ -2861,7 +2861,7 @@ const cities = [
     "lat": 28.397222222222,
     "lng": 36.578888888889,
     "population": 886036,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Sulaymaniyah",
@@ -2869,7 +2869,7 @@ const cities = [
     "lat": 35.55,
     "lng": 45.433333333333,
     "population": 878146,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Klang",
@@ -2877,7 +2877,7 @@ const cities = [
     "lat": 3.0333333333333,
     "lng": 101.45,
     "population": 878000,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Gurgaon",
@@ -2885,7 +2885,7 @@ const cities = [
     "lat": 28.466666666667,
     "lng": 77.033333333333,
     "population": 876824,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Charlotte",
@@ -2901,7 +2901,7 @@ const cities = [
     "lat": 33.425833333333,
     "lng": 43.299166666667,
     "population": 874543,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Aligarh",
@@ -2909,7 +2909,7 @@ const cities = [
     "lat": 27.88,
     "lng": 78.08,
     "population": 874408,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "San Francisco",
@@ -2925,7 +2925,7 @@ const cities = [
     "lat": 8.6333333333333,
     "lng": -70.216666666667,
     "population": 873962,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Jalandhar",
@@ -2933,7 +2933,7 @@ const cities = [
     "lat": 31.325555555556,
     "lng": 75.579166666667,
     "population": 873725,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Tyumen",
@@ -2941,7 +2941,7 @@ const cities = [
     "lat": 57.15,
     "lng": 65.533333333333,
     "population": 872077,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Eskişehir",
@@ -2949,7 +2949,7 @@ const cities = [
     "lat": 39.776666666667,
     "lng": 30.520555555556,
     "population": 871187,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Teresina",
@@ -2957,7 +2957,7 @@ const cities = [
     "lat": -5.0902777777778,
     "lng": -42.816666666667,
     "population": 868075,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Ipoh",
@@ -2965,7 +2965,7 @@ const cities = [
     "lat": 4.6,
     "lng": 101.07,
     "population": 866772,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Saltillo",
@@ -2973,7 +2973,7 @@ const cities = [
     "lat": 25.423055555556,
     "lng": -100.99194444444,
     "population": 864431,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Hermosillo",
@@ -2981,7 +2981,7 @@ const cities = [
     "lat": 29.075,
     "lng": -110.95833333333,
     "population": 855563,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Mexicali",
@@ -2989,7 +2989,7 @@ const cities = [
     "lat": 32.636,
     "lng": -115.4759,
     "population": 854186,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Cheongju",
@@ -2997,7 +2997,7 @@ const cities = [
     "lat": 36.637222222222,
     "lng": 127.48972222222,
     "population": 848000,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Akure",
@@ -3005,7 +3005,7 @@ const cities = [
     "lat": 7.25,
     "lng": 5.195,
     "population": 847903,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Ilorin",
@@ -3013,7 +3013,7 @@ const cities = [
     "lat": 8.5,
     "lng": 4.55,
     "population": 847582,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Erbil",
@@ -3061,7 +3061,7 @@ const cities = [
     "lat": 51.53,
     "lng": 46.035,
     "population": 838042,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Bhubaneswar",
@@ -3069,7 +3069,7 @@ const cities = [
     "lat": 20.295,
     "lng": 85.825,
     "population": 837737,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Buffalo",
@@ -3077,7 +3077,7 @@ const cities = [
     "lat": -32.983333333333,
     "lng": 27.866666666667,
     "population": 834997,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "João Pessoa",
@@ -3085,7 +3085,7 @@ const cities = [
     "lat": -7.12,
     "lng": -34.88,
     "population": 833932,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Trabzon",
@@ -3093,7 +3093,7 @@ const cities = [
     "lat": 41.005,
     "lng": 39.7225,
     "population": 824352,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Culiacán",
@@ -3101,7 +3101,7 @@ const cities = [
     "lat": 24.790277777778,
     "lng": -107.38777777778,
     "population": 808416,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Cúcuta",
@@ -3109,7 +3109,7 @@ const cities = [
     "lat": 7.9075,
     "lng": -72.504722222222,
     "population": 806378,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Kraków",
@@ -3117,7 +3117,7 @@ const cities = [
     "lat": 50.061388888889,
     "lng": 19.937222222222,
     "population": 804237,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Oran",
@@ -3125,7 +3125,7 @@ const cities = [
     "lat": 35.696944444444,
     "lng": -0.63305555555556,
     "population": 803329,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Bandar Lampung",
@@ -3133,7 +3133,7 @@ const cities = [
     "lat": -5.4291694444444,
     "lng": 105.26111111111,
     "population": 800348,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Blantyre",
@@ -3149,7 +3149,7 @@ const cities = [
     "lat": 20.588055555556,
     "lng": -100.38805555556,
     "population": 794789,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "George Town",
@@ -3165,7 +3165,7 @@ const cities = [
     "lat": 31.2625,
     "lng": 32.306111111111,
     "population": 791749,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Niigata",
@@ -3173,7 +3173,7 @@ const cities = [
     "lat": 37.916194444444,
     "lng": 139.03638888889,
     "population": 790646,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Hamamatsu",
@@ -3181,7 +3181,7 @@ const cities = [
     "lat": 34.710888888889,
     "lng": 137.72619444444,
     "population": 788211,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Mangaung",
@@ -3189,7 +3189,7 @@ const cities = [
     "lat": -29.15627,
     "lng": 26.35116,
     "population": 787803,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Goma",
@@ -3213,7 +3213,7 @@ const cities = [
     "lat": 34.733333333333,
     "lng": 36.716666666667,
     "population": 775404,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "San Luis Potosí",
@@ -3221,7 +3221,7 @@ const cities = [
     "lat": 22.149722222222,
     "lng": -100.975,
     "population": 772828,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Valencia",
@@ -3237,7 +3237,7 @@ const cities = [
     "lat": 39.916666666667,
     "lng": 127.53333333333,
     "population": 768551,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Erzurum",
@@ -3245,7 +3245,7 @@ const cities = [
     "lat": 39.909722222222,
     "lng": 41.275555555556,
     "population": 767848,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Zagreb",
@@ -3253,7 +3253,7 @@ const cities = [
     "lat": 45.813055555556,
     "lng": 15.977222222222,
     "population": 767131,
-    "difficulty": "hard"
+    "difficulty": "easy"
   },
   {
     "name": "Al Ain",
@@ -3261,7 +3261,7 @@ const cities = [
     "lat": 24.2075,
     "lng": 55.744722222222,
     "population": 766936,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Bahawalpur",
@@ -3269,7 +3269,7 @@ const cities = [
     "lat": 29.395555555556,
     "lng": 71.672222222222,
     "population": 762111,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Uberlândia",
@@ -3277,7 +3277,7 @@ const cities = [
     "lat": -18.918888888889,
     "lng": -48.276944444444,
     "population": 761835,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Kaduna",
@@ -3285,7 +3285,7 @@ const cities = [
     "lat": 10.5105,
     "lng": 7.4165,
     "population": 760084,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Maturín",
@@ -3293,7 +3293,7 @@ const cities = [
     "lat": 9.7422774,
     "lng": -63.1888854,
     "population": 753254,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Ciudad Guayana",
@@ -3301,7 +3301,7 @@ const cities = [
     "lat": 8.3223763,
     "lng": -62.6896622,
     "population": 751331,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Natal",
@@ -3309,7 +3309,7 @@ const cities = [
     "lat": -5.795,
     "lng": -35.208888888889,
     "population": 751300,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Winnipeg",
@@ -3317,7 +3317,7 @@ const cities = [
     "lat": 49.895555555556,
     "lng": -97.138611111111,
     "population": 749607,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Dasmariñas",
@@ -3325,7 +3325,7 @@ const cities = [
     "lat": 14.329444444444,
     "lng": 120.93666666667,
     "population": 744511,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Thiruvananthapuram",
@@ -3333,7 +3333,7 @@ const cities = [
     "lat": 8.4875,
     "lng": 76.9525,
     "population": 743691,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Nampula",
@@ -3349,7 +3349,7 @@ const cities = [
     "lat": 8.4833333333333,
     "lng": 124.65,
     "population": 741617,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Bouaké",
@@ -3373,7 +3373,7 @@ const cities = [
     "lat": 32.803,
     "lng": 130.70786111111,
     "population": 738385,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "São José dos Campos",
@@ -3381,7 +3381,7 @@ const cities = [
     "lat": -23.178888888889,
     "lng": -45.886944444444,
     "population": 737310,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Seattle",
@@ -3397,7 +3397,7 @@ const cities = [
     "lat": 37.548611111111,
     "lng": 45.0675,
     "population": 736224,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Ribeirão Preto",
@@ -3405,7 +3405,7 @@ const cities = [
     "lat": -21.1776315,
     "lng": -47.8100983,
     "population": 731639,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Osogbo",
@@ -3413,7 +3413,7 @@ const cities = [
     "lat": 7.7597222222222,
     "lng": 4.5761111111111,
     "population": 731000,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Tamale",
@@ -3429,7 +3429,7 @@ const cities = [
     "lat": 35.571416666667,
     "lng": 139.37313888889,
     "population": 725696,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Najaf",
@@ -3445,7 +3445,7 @@ const cities = [
     "lat": -23.501944444444,
     "lng": -47.457777777778,
     "population": 723574,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "General Santos",
@@ -3453,7 +3453,7 @@ const cities = [
     "lat": 6.1166666666667,
     "lng": 125.16666666667,
     "population": 722059,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Okayama",
@@ -3461,7 +3461,7 @@ const cities = [
     "lat": 34.655111111111,
     "lng": 133.91958333333,
     "population": 720043,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "San Pedro Sula",
@@ -3477,7 +3477,7 @@ const cities = [
     "lat": 59.913333333333,
     "lng": 10.738888888889,
     "population": 717710,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Lviv",
@@ -3485,7 +3485,7 @@ const cities = [
     "lat": 49.8425,
     "lng": 24.032222222222,
     "population": 717273,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Suez",
@@ -3517,7 +3517,7 @@ const cities = [
     "lat": -6.1666666666667,
     "lng": 39.2,
     "population": 709809,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Bhiwandi",
@@ -3525,7 +3525,7 @@ const cities = [
     "lat": 19.3,
     "lng": 73.066666666667,
     "population": 709665,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Latakia",
@@ -3533,7 +3533,7 @@ const cities = [
     "lat": 35.52,
     "lng": 35.778055555556,
     "population": 709000,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Bukavu",
@@ -3557,7 +3557,7 @@ const cities = [
     "lat": 29.964,
     "lng": 77.546,
     "population": 705478,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Warangal",
@@ -3565,7 +3565,7 @@ const cities = [
     "lat": 17.975555555556,
     "lng": 79.601111111111,
     "population": 704570,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Jeju",
@@ -3573,7 +3573,7 @@ const cities = [
     "lat": 33.509722222222,
     "lng": 126.52194444444,
     "population": 698358,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Hama",
@@ -3589,7 +3589,7 @@ const cities = [
     "lat": 10.315833333333,
     "lng": 9.8441666666667,
     "population": 693700,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Salem",
@@ -3597,7 +3597,7 @@ const cities = [
     "lat": 11.65,
     "lng": 78.166666666667,
     "population": 693236,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Bremen",
@@ -3613,7 +3613,7 @@ const cities = [
     "lat": -15.595833333333,
     "lng": -56.096944444444,
     "population": 691875,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Torreón",
@@ -3621,7 +3621,7 @@ const cities = [
     "lat": 25.54389,
     "lng": -103.41898,
     "population": 690193,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Karbala",
@@ -3653,7 +3653,7 @@ const cities = [
     "lat": 60.170833333333,
     "lng": 24.9375,
     "population": 686595,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Shizuoka",
@@ -3661,7 +3661,7 @@ const cities = [
     "lat": 34.975555555556,
     "lng": 138.3825,
     "population": 685589,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Seville",
@@ -3685,7 +3685,7 @@ const cities = [
     "lat": 37.276111111111,
     "lng": 49.588611111111,
     "population": 679995,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Kochi",
@@ -3693,7 +3693,7 @@ const cities = [
     "lat": 9.9666666666667,
     "lng": 76.283333333333,
     "population": 677381,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Boston",
@@ -3717,7 +3717,7 @@ const cities = [
     "lat": 51.11,
     "lng": 17.0325,
     "population": 673531,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Acapulco de Juárez",
@@ -3725,7 +3725,7 @@ const cities = [
     "lat": 16.8628695,
     "lng": -99.8870087,
     "population": 673478,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Gorakhpur",
@@ -3733,7 +3733,7 @@ const cities = [
     "lat": 26.761111111111,
     "lng": 83.366666666667,
     "population": 673446,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Chongjin",
@@ -3741,7 +3741,7 @@ const cities = [
     "lat": 41.783333333333,
     "lng": 129.78333333333,
     "population": 667929,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Copenhagen",
@@ -3749,7 +3749,7 @@ const cities = [
     "lat": 55.676111111111,
     "lng": 12.568888888889,
     "population": 667099,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Zaragoza",
@@ -3757,7 +3757,7 @@ const cities = [
     "lat": 41.65645655,
     "lng": -0.87928652,
     "population": 666880,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Bulawayo",
@@ -3773,7 +3773,7 @@ const cities = [
     "lat": -26.303888888889,
     "lng": -48.845833333333,
     "population": 664541,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Rotterdam",
@@ -3781,7 +3781,7 @@ const cities = [
     "lat": 51.92,
     "lng": 4.48,
     "population": 664311,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Villavicencio",
@@ -3789,7 +3789,7 @@ const cities = [
     "lat": 4.1425,
     "lng": -73.629444444444,
     "population": 664148,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Tolyatti",
@@ -3797,7 +3797,7 @@ const cities = [
     "lat": 53.516666666667,
     "lng": 49.416666666667,
     "population": 662683,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Makhachkala",
@@ -3805,7 +3805,7 @@ const cities = [
     "lat": 42.9825,
     "lng": 47.505,
     "population": 662660,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Vancouver",
@@ -3821,7 +3821,7 @@ const cities = [
     "lat": -12.266944444444,
     "lng": -38.966944444444,
     "population": 660806,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Jalingo",
@@ -3829,7 +3829,7 @@ const cities = [
     "lat": 8.9195,
     "lng": 11.32642,
     "population": 660213,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Sargodha",
@@ -3837,7 +3837,7 @@ const cities = [
     "lat": 32.083611111111,
     "lng": 72.671111111111,
     "population": 659862,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Bujumbura",
@@ -3853,7 +3853,7 @@ const cities = [
     "lat": 36.81,
     "lng": 127.1475,
     "population": 656583,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Brampton",
@@ -3861,7 +3861,7 @@ const cities = [
     "lat": 43.683333333333,
     "lng": -79.766666666667,
     "population": 656480,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Victoria de Durango",
@@ -3869,7 +3869,7 @@ const cities = [
     "lat": 24.022777777778,
     "lng": -104.65444444444,
     "population": 654876,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Jeonju",
@@ -3877,7 +3877,7 @@ const cities = [
     "lat": 35.821944444444,
     "lng": 127.14888888889,
     "population": 653055,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Portland",
@@ -3893,7 +3893,7 @@ const cities = [
     "lat": 51.75,
     "lng": 19.466666666667,
     "population": 648711,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Colombo",
@@ -3901,7 +3901,7 @@ const cities = [
     "lat": 6.9266666666667,
     "lng": 79.860555555556,
     "population": 647557,
-    "difficulty": "hard"
+    "difficulty": "easy"
   },
   {
     "name": "Guntur",
@@ -3909,7 +3909,7 @@ const cities = [
     "lat": 16.3,
     "lng": 80.45,
     "population": 647508,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Athens",
@@ -3957,7 +3957,7 @@ const cities = [
     "lat": -10.9167,
     "lng": -37.05,
     "population": 632744,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Cochabamba",
@@ -3973,7 +3973,7 @@ const cities = [
     "lat": 32.116666666667,
     "lng": 20.066666666667,
     "population": 631555,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Düsseldorf",
@@ -3981,7 +3981,7 @@ const cities = [
     "lat": 51.225555555556,
     "lng": 6.7766666666667,
     "population": 631217,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Palermo",
@@ -3997,7 +3997,7 @@ const cities = [
     "lat": 55.861111111111,
     "lng": -4.25,
     "population": 626410,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Namangan",
@@ -4013,7 +4013,7 @@ const cities = [
     "lat": 21.21,
     "lng": 81.38,
     "population": 625700,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Kitwe",
@@ -4029,7 +4029,7 @@ const cities = [
     "lat": 12.871666666667,
     "lng": 74.8425,
     "population": 623841,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Barnaul",
@@ -4037,7 +4037,7 @@ const cities = [
     "lat": 53.356666666667,
     "lng": 83.787222222222,
     "population": 623057,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Jos",
@@ -4045,7 +4045,7 @@ const cities = [
     "lat": 9.9333333333333,
     "lng": 8.8833333333333,
     "population": 622802,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Mansoura",
@@ -4053,7 +4053,7 @@ const cities = [
     "lat": 31.05,
     "lng": 31.383333333333,
     "population": 621953,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Leipzig",
@@ -4061,7 +4061,7 @@ const cities = [
     "lat": 51.33962,
     "lng": 12.37129,
     "population": 619879,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Al Hudaydah",
@@ -4077,7 +4077,7 @@ const cities = [
     "lat": 56.85,
     "lng": 53.216666666667,
     "population": 616297,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Khabarovsk",
@@ -4085,7 +4085,7 @@ const cities = [
     "lat": 48.483333333333,
     "lng": 135.06666666667,
     "population": 615600,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Ta'izz",
@@ -4101,7 +4101,7 @@ const cities = [
     "lat": 7.1186111111111,
     "lng": -73.116111111111,
     "population": 614860,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Kandahar",
@@ -4109,7 +4109,7 @@ const cities = [
     "lat": 31.62068,
     "lng": 65.71588,
     "population": 614254,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Ulyanovsk",
@@ -4117,7 +4117,7 @@ const cities = [
     "lat": 54.316666666667,
     "lng": 48.366666666667,
     "population": 613334,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Kuantan",
@@ -4125,7 +4125,7 @@ const cities = [
     "lat": 3.8166666666667,
     "lng": 103.33333333333,
     "population": 607778,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Gold Coast",
@@ -4133,7 +4133,7 @@ const cities = [
     "lat": -28.016666666667,
     "lng": 153.4,
     "population": 607665,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Irkutsk",
@@ -4141,7 +4141,7 @@ const cities = [
     "lat": 52.289166666667,
     "lng": 104.28,
     "population": 605708,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Malanje",
@@ -4157,7 +4157,7 @@ const cities = [
     "lat": 47.91,
     "lng": 33.39,
     "population": 603904,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Djibouti City",
@@ -4173,7 +4173,7 @@ const cities = [
     "lat": 36.800833333333,
     "lng": 10.18,
     "population": 602560,
-    "difficulty": "hard"
+    "difficulty": "easy"
   },
   {
     "name": "San Miguel de Tucumán",
@@ -4181,7 +4181,7 @@ const cities = [
     "lat": -26.816666666667,
     "lng": -65.216666666667,
     "population": 601888,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Meknes",
@@ -4189,7 +4189,7 @@ const cities = [
     "lat": 33.883333333333,
     "lng": -5.55,
     "population": 601000,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Dortmund",
@@ -4197,7 +4197,7 @@ const cities = [
     "lat": 51.513888888889,
     "lng": 7.4652777777778,
     "population": 595471,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Riga",
@@ -4205,7 +4205,7 @@ const cities = [
     "lat": 56.9475,
     "lng": 24.106944444444,
     "population": 595053,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Salta",
@@ -4213,7 +4213,7 @@ const cities = [
     "lat": -24.788333333333,
     "lng": -65.410555555556,
     "population": 594772,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Kagoshima",
@@ -4221,7 +4221,7 @@ const cities = [
     "lat": 31.596805555556,
     "lng": 130.55713888889,
     "population": 593754,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Mar del Plata",
@@ -4229,7 +4229,7 @@ const cities = [
     "lat": -38.0,
     "lng": -57.55,
     "population": 593337,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Irapuato",
@@ -4237,7 +4237,7 @@ const cities = [
     "lat": 20.674166666667,
     "lng": -101.3475,
     "population": 592953,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Dublin",
@@ -4253,7 +4253,7 @@ const cities = [
     "lat": 32.5,
     "lng": 74.533333333333,
     "population": 591668,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Vladivostok",
@@ -4261,7 +4261,7 @@ const cities = [
     "lat": 43.115,
     "lng": 131.88527777778,
     "population": 591628,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Pereira",
@@ -4269,7 +4269,7 @@ const cities = [
     "lat": 4.8142777777778,
     "lng": -75.694558333333,
     "population": 590554,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Gaza City",
@@ -4277,7 +4277,7 @@ const cities = [
     "lat": 31.5075,
     "lng": 34.459722222222,
     "population": 590481,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Reynosa",
@@ -4285,7 +4285,7 @@ const cities = [
     "lat": 26.092222222222,
     "lng": -98.277777777778,
     "population": 589466,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Zahedan",
@@ -4293,7 +4293,7 @@ const cities = [
     "lat": 29.4928874,
     "lng": 60.8503017,
     "population": 587730,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Florianópolis",
@@ -4301,7 +4301,7 @@ const cities = [
     "lat": -27.593280555556,
     "lng": -48.553047222222,
     "population": 587486,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Essen",
@@ -4309,7 +4309,7 @@ const cities = [
     "lat": 51.450833333333,
     "lng": 7.0130555555556,
     "population": 586608,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Mbale",
@@ -4333,7 +4333,7 @@ const cities = [
     "lat": 54.687222222222,
     "lng": 25.28,
     "population": 581475,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Londrina",
@@ -4341,7 +4341,7 @@ const cities = [
     "lat": -23.31,
     "lng": -51.162777777778,
     "population": 581382,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Ta'if",
@@ -4349,7 +4349,7 @@ const cities = [
     "lat": 21.266666666667,
     "lng": 40.416666666667,
     "population": 579970,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Port Sudan",
@@ -4365,7 +4365,7 @@ const cities = [
     "lat": -20.128888888889,
     "lng": -40.307777777778,
     "population": 579720,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Tuxtla Gutiérrez",
@@ -4373,7 +4373,7 @@ const cities = [
     "lat": 16.753055555556,
     "lng": -93.115555555556,
     "population": 578830,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Dehradun",
@@ -4381,7 +4381,7 @@ const cities = [
     "lat": 30.318,
     "lng": 78.029,
     "population": 578420,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Milwaukee",
@@ -4397,7 +4397,7 @@ const cities = [
     "lat": 14.216666666667,
     "lng": 121.16666666667,
     "population": 575046,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Kabinda",
@@ -4413,7 +4413,7 @@ const cities = [
     "lat": 43.256666666667,
     "lng": -79.869166666667,
     "population": 569353,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Ciudad Bolívar",
@@ -4421,7 +4421,7 @@ const cities = [
     "lat": 8.1028532,
     "lng": -63.5469562,
     "population": 567953,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Yaroslavl",
@@ -4429,7 +4429,7 @@ const cities = [
     "lat": 57.626388888889,
     "lng": 39.893333333333,
     "population": 567443,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Chișinău",
@@ -4445,7 +4445,7 @@ const cities = [
     "lat": 23.55,
     "lng": 87.32,
     "population": 566517,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Dresden",
@@ -4453,7 +4453,7 @@ const cities = [
     "lat": 51.0493286,
     "lng": 13.7381437,
     "population": 566222,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Albuquerque",
@@ -4469,7 +4469,7 @@ const cities = [
     "lat": 23.683333333333,
     "lng": 86.966666666667,
     "population": 563917,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Asyut",
@@ -4477,7 +4477,7 @@ const cities = [
     "lat": 27.186944444444,
     "lng": 31.171388888889,
     "population": 562061,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Benguela",
@@ -4509,7 +4509,7 @@ const cities = [
     "lat": 31.857777777778,
     "lng": -116.60583333333,
     "population": 557430,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Herat",
@@ -4517,7 +4517,7 @@ const cities = [
     "lat": 34.341944,
     "lng": 62.203056,
     "population": 556205,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Hamadan",
@@ -4525,7 +4525,7 @@ const cities = [
     "lat": 34.8,
     "lng": 48.516666666667,
     "population": 554406,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Chiclayo",
@@ -4533,7 +4533,7 @@ const cities = [
     "lat": -6.7716666666667,
     "lng": -79.838333333333,
     "population": 552508,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Amravati",
@@ -4541,7 +4541,7 @@ const cities = [
     "lat": 20.933333333333,
     "lng": 77.75,
     "population": 549370,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Porto Velho",
@@ -4549,7 +4549,7 @@ const cities = [
     "lat": -8.7619444444444,
     "lng": -63.903888888889,
     "population": 548952,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Naberezhnye Chelny",
@@ -4557,7 +4557,7 @@ const cities = [
     "lat": 55.714852,
     "lng": 52.3696525,
     "population": 548221,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Hanover",
@@ -4589,7 +4589,7 @@ const cities = [
     "lat": 14.433333333333,
     "lng": 79.966666666667,
     "population": 547621,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Poznań",
@@ -4597,7 +4597,7 @@ const cities = [
     "lat": 52.408333333333,
     "lng": 16.933611111111,
     "population": 546859,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Samarkand",
@@ -4605,7 +4605,7 @@ const cities = [
     "lat": 39.654722222222,
     "lng": 66.975833333333,
     "population": 546303,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Ibagué",
@@ -4613,7 +4613,7 @@ const cities = [
     "lat": 4.4377777777778,
     "lng": -75.200555555556,
     "population": 546003,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Lisbon",
@@ -4621,7 +4621,7 @@ const cities = [
     "lat": 38.708042,
     "lng": -9.139016,
     "population": 545796,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Tomsk",
@@ -4629,7 +4629,7 @@ const cities = [
     "lat": 56.488611111111,
     "lng": 84.952222222222,
     "population": 544566,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Valledupar",
@@ -4637,7 +4637,7 @@ const cities = [
     "lat": 10.460277777778,
     "lng": -73.259722222222,
     "population": 544134,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Málaga",
@@ -4653,7 +4653,7 @@ const cities = [
     "lat": 55.333333333333,
     "lng": 86.066666666667,
     "population": 542928,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Tucson",
@@ -4669,7 +4669,7 @@ const cities = [
     "lat": 26.468,
     "lng": 74.639,
     "population": 542321,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Fresno",
@@ -4685,7 +4685,7 @@ const cities = [
     "lat": 25.879722222222,
     "lng": -97.504166666667,
     "population": 541979,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Nasiriyah",
@@ -4701,7 +4701,7 @@ const cities = [
     "lat": 32.483333333333,
     "lng": 44.433333333333,
     "population": 541034,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Juiz de Fora",
@@ -4709,7 +4709,7 @@ const cities = [
     "lat": -21.75,
     "lng": -43.35,
     "population": 540756,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Sekondi-Takoradi",
@@ -4725,7 +4725,7 @@ const cities = [
     "lat": 30.421388888889,
     "lng": -9.5830555555556,
     "population": 538000,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Kerman",
@@ -4733,7 +4733,7 @@ const cities = [
     "lat": 30.291111111111,
     "lng": 57.067777777778,
     "population": 537718,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Orenburg",
@@ -4741,7 +4741,7 @@ const cities = [
     "lat": 51.766666666667,
     "lng": 55.1,
     "population": 536515,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Leeds",
@@ -4749,7 +4749,7 @@ const cities = [
     "lat": 53.7975,
     "lng": -1.5436111111111,
     "population": 536280,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Kassala",
@@ -4773,7 +4773,7 @@ const cities = [
     "lat": 31.897222222222,
     "lng": 54.3675,
     "population": 529673,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Antwerp",
@@ -4781,7 +4781,7 @@ const cities = [
     "lat": 51.221111111111,
     "lng": 4.3997222222222,
     "population": 529247,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Touba",
@@ -4797,7 +4797,7 @@ const cities = [
     "lat": 28.018055555556,
     "lng": 73.316944444444,
     "population": 529007,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Kosti",
@@ -4821,7 +4821,7 @@ const cities = [
     "lat": 34.815166666667,
     "lng": 134.68538888889,
     "population": 527596,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Bandar Abbas",
@@ -4829,7 +4829,7 @@ const cities = [
     "lat": 27.186388888889,
     "lng": 56.280833333333,
     "population": 526648,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Nuremberg",
@@ -4845,7 +4845,7 @@ const cities = [
     "lat": 10.233333333333,
     "lng": -66.65,
     "population": 525321,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Sacramento",
@@ -4861,7 +4861,7 @@ const cities = [
     "lat": -29.167777777778,
     "lng": -51.178888888889,
     "population": 523716,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Agartala",
@@ -4869,7 +4869,7 @@ const cities = [
     "lat": 23.833333333333,
     "lng": 91.266666666667,
     "population": 522613,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Arak",
@@ -4877,7 +4877,7 @@ const cities = [
     "lat": 34.095,
     "lng": 49.698055555556,
     "population": 520944,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Pohang",
@@ -4885,7 +4885,7 @@ const cities = [
     "lat": 36.032222222222,
     "lng": 129.365,
     "population": 520305,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Ryazan",
@@ -4893,7 +4893,7 @@ const cities = [
     "lat": 54.63,
     "lng": 39.7425,
     "population": 519315,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Campos dos Goytacazes",
@@ -4901,7 +4901,7 @@ const cities = [
     "lat": -21.753888888889,
     "lng": -41.323888888889,
     "population": 519259,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Faiyum",
@@ -4909,7 +4909,7 @@ const cities = [
     "lat": 29.3,
     "lng": 30.833333333333,
     "population": 519047,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Utsunomiya",
@@ -4917,7 +4917,7 @@ const cities = [
     "lat": 36.555111111111,
     "lng": 139.88255555556,
     "population": 518197,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Sheffield",
@@ -4925,7 +4925,7 @@ const cities = [
     "lat": 53.380833333333,
     "lng": -1.4702777777778,
     "population": 518090,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Karaganda",
@@ -4941,7 +4941,7 @@ const cities = [
     "lat": 23.182777777778,
     "lng": 75.777222222222,
     "population": 515215,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Toulouse",
@@ -4973,7 +4973,7 @@ const cities = [
     "lat": 31.833333333333,
     "lng": 47.15,
     "population": 511500,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Kansas City",
@@ -4989,7 +4989,7 @@ const cities = [
     "lat": 34.25,
     "lng": -6.5833333333333,
     "population": 507736,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Jhansi",
@@ -4997,7 +4997,7 @@ const cities = [
     "lat": 25.44862,
     "lng": 78.56962,
     "population": 507000,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Matsuyama",
@@ -5005,7 +5005,7 @@ const cities = [
     "lat": 33.839166666667,
     "lng": 132.76563888889,
     "population": 506743,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Oujda",
@@ -5013,7 +5013,7 @@ const cities = [
     "lat": 34.686666666667,
     "lng": -1.9113888888889,
     "population": 506224,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Santa Marta",
@@ -5021,7 +5021,7 @@ const cities = [
     "lat": 11.236111111111,
     "lng": -74.201666666667,
     "population": 505915,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "São José do Rio Preto",
@@ -5029,7 +5029,7 @@ const cities = [
     "lat": -20.82,
     "lng": -49.378888888889,
     "population": 504166,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Jammu",
@@ -5037,7 +5037,7 @@ const cities = [
     "lat": 32.733333333333,
     "lng": 74.85,
     "population": 502197,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Ile Ife",
@@ -5045,7 +5045,7 @@ const cities = [
     "lat": 7.4666666666667,
     "lng": 4.5666666666667,
     "population": 501952,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Mazatlán",
@@ -5053,7 +5053,7 @@ const cities = [
     "lat": 23.241388888889,
     "lng": -106.40972222222,
     "population": 501441,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Zafarwal",
@@ -5061,7 +5061,7 @@ const cities = [
     "lat": 32.34631,
     "lng": 74.89987,
     "population": 501213,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Gomel",
@@ -5093,7 +5093,7 @@ const cities = [
     "lat": 30.302222222222,
     "lng": 31.745555555556,
     "population": 500000,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Ctesiphon",
@@ -5101,7 +5101,7 @@ const cities = [
     "lat": 33.093611,
     "lng": 44.580833,
     "population": 500000,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Sukkur",
@@ -5109,7 +5109,7 @@ const cities = [
     "lat": 27.699522222222,
     "lng": 68.867286111111,
     "population": 499900,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Hsinchu City",
@@ -5117,7 +5117,7 @@ const cities = [
     "lat": 24.804722222222,
     "lng": 120.97138888889,
     "population": 499348,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Atlanta",
@@ -5133,7 +5133,7 @@ const cities = [
     "lat": 37.832777777778,
     "lng": 126.81694444444,
     "population": 497775,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Cheboksary",
@@ -5141,7 +5141,7 @@ const cities = [
     "lat": 56.133333333333,
     "lng": 47.25,
     "population": 497061,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Staten Island",
@@ -5173,7 +5173,7 @@ const cities = [
     "lat": 6.1333333333333,
     "lng": 102.25,
     "population": 491237,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Larkana",
@@ -5181,7 +5181,7 @@ const cities = [
     "lat": 27.56,
     "lng": 68.226388888889,
     "population": 490508,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Vinh",
@@ -5189,7 +5189,7 @@ const cities = [
     "lat": 18.673333333333,
     "lng": 105.69222222222,
     "population": 490000,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Kaliningrad",
@@ -5197,7 +5197,7 @@ const cities = [
     "lat": 54.716666666667,
     "lng": 20.5,
     "population": 488690,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Belgaum",
@@ -5205,7 +5205,7 @@ const cities = [
     "lat": 15.856944444444,
     "lng": 74.504444444444,
     "population": 488157,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Edinburgh",
@@ -5221,7 +5221,7 @@ const cities = [
     "lat": 53.2,
     "lng": 45.0,
     "population": 487978,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Gdańsk",
@@ -5245,7 +5245,7 @@ const cities = [
     "lat": 44.605,
     "lng": 33.5225,
     "population": 485386,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Vellore",
@@ -5253,7 +5253,7 @@ const cities = [
     "lat": 12.933333333333,
     "lng": 79.133333333333,
     "population": 484690,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Angeles",
@@ -5261,7 +5261,7 @@ const cities = [
     "lat": 15.147180555556,
     "lng": 120.58473333333,
     "population": 483452,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Bafoussam",
@@ -5277,7 +5277,7 @@ const cities = [
     "lat": 22.47,
     "lng": 70.07,
     "population": 479920,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Sylhet",
@@ -5293,7 +5293,7 @@ const cities = [
     "lat": 48.144722222222,
     "lng": 17.112777777778,
     "population": 479389,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Colorado Springs",
@@ -5309,7 +5309,7 @@ const cities = [
     "lat": 31.716666666667,
     "lng": 72.983333333333,
     "population": 477781,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Oita",
@@ -5317,7 +5317,7 @@ const cities = [
     "lat": 33.239555555556,
     "lng": 131.60936111111,
     "population": 477186,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Gaya",
@@ -5325,7 +5325,7 @@ const cities = [
     "lat": 24.75,
     "lng": 85.016666666667,
     "population": 474093,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Iloilo City",
@@ -5333,7 +5333,7 @@ const cities = [
     "lat": 10.716666666667,
     "lng": 122.56666666667,
     "population": 473728,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Sheikhupura",
@@ -5341,7 +5341,7 @@ const cities = [
     "lat": 31.708333333333,
     "lng": 74.0,
     "population": 473129,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Piura",
@@ -5349,7 +5349,7 @@ const cities = [
     "lat": -5.2008333333333,
     "lng": -80.625277777778,
     "population": 473025,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Bristol",
@@ -5365,7 +5365,7 @@ const cities = [
     "lat": 58.6,
     "lng": 49.65,
     "population": 471754,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "San Juan",
@@ -5397,7 +5397,7 @@ const cities = [
     "lat": 46.975,
     "lng": 31.995,
     "population": 470011,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Mazar-i-Sharif",
@@ -5413,7 +5413,7 @@ const cities = [
     "lat": 33.744722222222,
     "lng": 44.643611111111,
     "population": 467900,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Tel-Aviv",
@@ -5437,7 +5437,7 @@ const cities = [
     "lat": 26.333333333333,
     "lng": 43.966666666667,
     "population": 467410,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Long Beach",
@@ -5453,7 +5453,7 @@ const cities = [
     "lat": 54.2,
     "lng": 37.616666666667,
     "population": 466609,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Astrakhan",
@@ -5461,7 +5461,7 @@ const cities = [
     "lat": 46.35,
     "lng": 48.035,
     "population": 465990,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Constantine",
@@ -5477,7 +5477,7 @@ const cities = [
     "lat": 36.561055555556,
     "lng": 136.6565,
     "population": 462479,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Asunción",
@@ -5493,7 +5493,7 @@ const cities = [
     "lat": 21.016666666667,
     "lng": 75.566666666667,
     "population": 460468,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Fukuyama",
@@ -5501,7 +5501,7 @@ const cities = [
     "lat": 34.485861111111,
     "lng": 133.36230555556,
     "population": 459576,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Virginia Beach",
@@ -5517,7 +5517,7 @@ const cities = [
     "lat": 15.822222222222,
     "lng": 78.035,
     "population": 457633,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Tallinn",
@@ -5525,7 +5525,7 @@ const cities = [
     "lat": 59.437222222222,
     "lng": 24.745,
     "population": 457572,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Malacca",
@@ -5541,7 +5541,7 @@ const cities = [
     "lat": 5.0675,
     "lng": -75.51,
     "population": 454494,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Miami",
@@ -5573,7 +5573,7 @@ const cities = [
     "lat": 41.996111111111,
     "lng": 21.431666666667,
     "population": 422540,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Tulsa",
@@ -5693,7 +5693,7 @@ const cities = [
     "lat": 13.697597222222,
     "lng": -89.191155555556,
     "population": 330543,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Plovdiv",
@@ -5757,7 +5757,7 @@ const cities = [
     "lat": 40.640277777778,
     "lng": 22.935555555556,
     "population": 309617,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Cincinnati",
@@ -5813,7 +5813,7 @@ const cities = [
     "lat": 26.216666666667,
     "lng": 50.583333333333,
     "population": 297502,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Graz",
@@ -5821,7 +5821,7 @@ const cities = [
     "lat": 47.070833333333,
     "lng": 15.438611111111,
     "population": 292630,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Anchorage",
@@ -5845,7 +5845,7 @@ const cities = [
     "lat": 56.156388888889,
     "lng": 10.209722222222,
     "population": 290598,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Bata",
@@ -5917,7 +5917,7 @@ const cities = [
     "lat": 43.856388888889,
     "lng": 18.413055555556,
     "population": 275524,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Iași",
@@ -5981,7 +5981,7 @@ const cities = [
     "lat": 61.498055555556,
     "lng": 23.76,
     "population": 255333,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Laredo",
@@ -6037,7 +6037,7 @@ const cities = [
     "lat": 6.8058333333333,
     "lng": -58.150833333333,
     "population": 235017,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Porto",
@@ -6117,7 +6117,7 @@ const cities = [
     "lat": 51.9,
     "lng": -8.4730555555556,
     "population": 222333,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Dili",
@@ -6149,7 +6149,7 @@ const cities = [
     "lat": 40.694444444444,
     "lng": -73.329444444444,
     "population": 218223,
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "name": "Huntsville",
@@ -6173,7 +6173,7 @@ const cities = [
     "lat": 48.305833333333,
     "lng": 14.286388888889,
     "population": 211944,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Rochester",
@@ -6349,7 +6349,7 @@ const cities = [
     "lat": 55.4,
     "lng": 10.383333333333,
     "population": 185480,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Fort Lauderdale",
@@ -6365,7 +6365,7 @@ const cities = [
     "lat": 41.550277777778,
     "lng": -8.42,
     "population": 181494,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Chattanooga",
@@ -6397,7 +6397,7 @@ const cities = [
     "lat": 38.25,
     "lng": 21.733333333333,
     "population": 173600,
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "name": "Lancaster",
@@ -6413,7 +6413,7 @@ const cities = [
     "lat": 43.51,
     "lng": 16.44,
     "population": 160577,
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "name": "Praia",
@@ -6469,7 +6469,7 @@ const cities = [
     "lat": 49.610555555556,
     "lng": 6.1327777777778,
     "population": 137696,
-    "difficulty": "hard"
+    "difficulty": "easy"
   },
   {
     "name": "Malé",
@@ -6477,7 +6477,7 @@ const cities = [
     "lat": 4.175,
     "lng": 73.508333333333,
     "population": 133019,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Thimphu",
@@ -6597,7 +6597,7 @@ const cities = [
     "lat": 43.731111111111,
     "lng": 7.42,
     "population": 38423,
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "name": "Apia",
@@ -6613,7 +6613,7 @@ const cities = [
     "lat": -38.216666666667,
     "lng": -72.333333333333,
     "population": 34890,
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
     "name": "Kingstown",
@@ -6696,3 +6696,4 @@ const cities = [
     "difficulty": "hard"
   }
 ];
+
