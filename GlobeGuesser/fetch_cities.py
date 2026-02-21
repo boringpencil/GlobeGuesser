@@ -360,7 +360,7 @@ def main():
             
     # 2. MUST HAVE: Ensure top 30 US
     for city in final_cities:
-        if country_counts.get("United States of America", 0) >= 30:
+        if country_counts.get("United States of America", 0) >= 150:
             break
         c_name = city["country"]
         if "United" in c_name and "States" in c_name:

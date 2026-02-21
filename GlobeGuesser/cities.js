@@ -2914,8 +2914,8 @@ const cities = [
   {
     "name": "San Francisco",
     "country": "United States",
-    "lat": 37.775,
-    "lng": -122.41944444444,
+    "lat": 37.7775,
+    "lng": -122.41638888889,
     "population": 873965,
     "difficulty": "easy"
   },
@@ -4642,8 +4642,8 @@ const cities = [
   {
     "name": "Málaga",
     "country": "Spain",
-    "lat": 36.72016,
-    "lng": -4.42034,
+    "lat": 36.72034267,
+    "lng": -4.41997511,
     "population": 543392,
     "difficulty": "easy"
   },
@@ -5080,6 +5080,14 @@ const cities = [
     "difficulty": "hard"
   },
   {
+    "name": "Belas",
+    "country": "Angola",
+    "lat": -9.0583333333333,
+    "lng": 13.153888888889,
+    "population": 500000,
+    "difficulty": "hard"
+  },
+  {
     "name": "10th of Ramadan",
     "country": "Egypt",
     "lat": 30.302222222222,
@@ -5094,14 +5102,6 @@ const cities = [
     "lng": 44.580833,
     "population": 500000,
     "difficulty": "medium"
-  },
-  {
-    "name": "Belas",
-    "country": "Angola",
-    "lat": -9.0583333333333,
-    "lng": 13.153888888889,
-    "population": 500000,
-    "difficulty": "hard"
   },
   {
     "name": "Sukkur",
@@ -5544,187 +5544,11 @@ const cities = [
     "difficulty": "medium"
   },
   {
-    "name": "Zurich",
-    "country": "Switzerland",
-    "lat": 47.374444444444,
-    "lng": 8.5411111111111,
-    "population": 452421,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Kota Kinabalu",
-    "country": "Malaysia",
-    "lat": 5.975,
-    "lng": 116.0725,
-    "population": 452058,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Udaipur",
-    "country": "India",
-    "lat": 24.583333333333,
-    "lng": 73.683333333333,
-    "population": 451100,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Mogi das Cruzes",
-    "country": "Brazil",
-    "lat": -23.522777777778,
-    "lng": -46.193055555556,
-    "population": 450785,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Stavropol",
-    "country": "Russia",
-    "lat": 45.05,
-    "lng": 41.983333333333,
-    "population": 450680,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Betim",
-    "country": "Brazil",
-    "lat": -19.967777777778,
-    "lng": -44.197777777778,
-    "population": 450024,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Rajshahi",
-    "country": "Bangladesh",
-    "lat": 24.366666666667,
-    "lng": 88.6,
-    "population": 448087,
-    "difficulty": "hard"
-  },
-  {
-    "name": "Ado Ekiti",
-    "country": "Nigeria",
-    "lat": 7.6166666666667,
-    "lng": 5.2166666666667,
-    "population": 446749,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Batman",
-    "country": "Turkey",
-    "lat": 37.883333333333,
-    "lng": 41.133333333333,
-    "population": 445874,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Santiago de Cuba",
-    "country": "Cuba",
-    "lat": 20.021666666667,
-    "lng": -75.829444444444,
-    "population": 444851,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Kahramanmaraş",
-    "country": "Turkey",
-    "lat": 37.5875,
-    "lng": 36.945277777778,
-    "population": 443575,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Macapá",
-    "country": "Brazil",
-    "lat": 0.032958333333333,
-    "lng": -51.065311111111,
-    "population": 442933,
-    "difficulty": "easy"
-  },
-  {
     "name": "Miami",
     "country": "United States",
     "lat": 25.783333333333,
     "lng": -80.216666666667,
     "population": 442241,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Korhogo",
-    "country": "Ivory Coast",
-    "lat": 9.4577777777778,
-    "lng": -5.6294444444444,
-    "population": 440926,
-    "difficulty": "hard"
-  },
-  {
-    "name": "Montes Claros",
-    "country": "Brazil",
-    "lat": -16.732222222222,
-    "lng": -43.863611111111,
-    "population": 437601,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Phrae",
-    "country": "Thailand",
-    "lat": 18.145,
-    "lng": 100.14055555556,
-    "population": 437350,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Sunchon",
-    "country": "North Korea",
-    "lat": 39.416666666667,
-    "lng": 125.93333333333,
-    "population": 437000,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Sangli",
-    "country": "India",
-    "lat": 16.866666666667,
-    "lng": 74.566666666667,
-    "population": 436639,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Lobito",
-    "country": "Angola",
-    "lat": -12.35,
-    "lng": 13.546388888889,
-    "population": 436467,
-    "difficulty": "hard"
-  },
-  {
-    "name": "Ulan-Ude",
-    "country": "Russia",
-    "lat": 51.827222222222,
-    "lng": 107.60638888889,
-    "population": 435067,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Palma",
-    "country": "Spain",
-    "lat": 39.566666666667,
-    "lng": 2.6497222222222,
-    "population": 434786,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Kursk",
-    "country": "Russia",
-    "lat": 51.737222222222,
-    "lng": 36.187222222222,
-    "population": 434696,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Kozhikode",
-    "country": "India",
-    "lat": 11.247777777778,
-    "lng": 75.780277777778,
-    "population": 431560,
     "difficulty": "easy"
   },
   {
@@ -5736,148 +5560,12 @@ const cities = [
     "difficulty": "hard"
   },
   {
-    "name": "Zanjan",
-    "country": "Iran",
-    "lat": 36.666666666667,
-    "lng": 48.483333333333,
-    "population": 430871,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Khamis Mushait",
-    "country": "Saudi Arabia",
-    "lat": 18.3,
-    "lng": 42.733333333333,
-    "population": 430828,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Corrientes",
-    "country": "Argentina",
-    "lat": -27.483333333333,
-    "lng": -58.816666666667,
-    "population": 430170,
-    "difficulty": "medium"
-  },
-  {
     "name": "Minneapolis",
     "country": "United States",
     "lat": 44.981944444444,
     "lng": -93.269166666667,
     "population": 429954,
     "difficulty": "easy"
-  },
-  {
-    "name": "Uyo",
-    "country": "Nigeria",
-    "lat": 5.05,
-    "lng": 7.9333333333333,
-    "population": 429900,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Tanta",
-    "country": "Egypt",
-    "lat": 30.783333333333,
-    "lng": 31.0,
-    "population": 429503,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Ismailia",
-    "country": "Egypt",
-    "lat": 30.583333333333,
-    "lng": 32.266666666667,
-    "population": 429465,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Cusco",
-    "country": "Peru",
-    "lat": -13.516944444444,
-    "lng": -71.978611111111,
-    "population": 428450,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Veracruz",
-    "country": "Mexico",
-    "lat": 19.190277777778,
-    "lng": -96.153333333333,
-    "population": 428323,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Sokoto",
-    "country": "Nigeria",
-    "lat": 13.062222222222,
-    "lng": 5.2338888888889,
-    "population": 427760,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Kashiwa",
-    "country": "Japan",
-    "lat": 35.867583333333,
-    "lng": 139.97575,
-    "population": 427603,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Malatya",
-    "country": "Turkey",
-    "lat": 38.35062,
-    "lng": 38.3094,
-    "population": 426381,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Aomori",
-    "country": "Japan",
-    "lat": 40.822777777778,
-    "lng": 140.74694444444,
-    "population": 425962,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Tepic",
-    "country": "Mexico",
-    "lat": 21.5,
-    "lng": -104.9,
-    "population": 425942,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Akola",
-    "country": "India",
-    "lat": 20.733333333333,
-    "lng": 77.0,
-    "population": 425817,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Xalapa",
-    "country": "Mexico",
-    "lat": 19.53124,
-    "lng": -96.91589,
-    "population": 424755,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Piracicaba",
-    "country": "Brazil",
-    "lat": -22.725165,
-    "lng": -47.6493269,
-    "population": 423323,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Tétouan",
-    "country": "Morocco",
-    "lat": 35.566666666667,
-    "lng": -5.3666666666667,
-    "population": 422757,
-    "difficulty": "medium"
   },
   {
     "name": "Skopje",
@@ -5888,150 +5576,6 @@ const cities = [
     "difficulty": "hard"
   },
   {
-    "name": "Likasi",
-    "country": "Democratic Republic of the Congo",
-    "lat": -10.983333333333,
-    "lng": 26.733333333333,
-    "population": 422535,
-    "difficulty": "hard"
-  },
-  {
-    "name": "Toyota",
-    "country": "Japan",
-    "lat": 35.082416666667,
-    "lng": 137.15633333333,
-    "population": 422106,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Elazığ",
-    "country": "Turkey",
-    "lat": 38.666666666667,
-    "lng": 39.216666666667,
-    "population": 421726,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Hpa-An",
-    "country": "Myanmar",
-    "lat": 16.890555555556,
-    "lng": 97.633333333333,
-    "population": 421525,
-    "difficulty": "hard"
-  },
-  {
-    "name": "Gumi",
-    "country": "South Korea",
-    "lat": 36.21,
-    "lng": 128.35444444444,
-    "population": 421075,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Rahim Yar Khan",
-    "country": "Pakistan",
-    "lat": 28.420555555556,
-    "lng": 70.303333333333,
-    "population": 420419,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Manisa",
-    "country": "Turkey",
-    "lat": 38.611944444444,
-    "lng": 27.426388888889,
-    "population": 420015,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Seremban",
-    "country": "Malaysia",
-    "lat": 2.7297222222222,
-    "lng": 101.93805555556,
-    "population": 419536,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Campina Grande",
-    "country": "Brazil",
-    "lat": -7.2305555555556,
-    "lng": -35.881111111111,
-    "population": 419379,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Santos",
-    "country": "Brazil",
-    "lat": -23.960833333333,
-    "lng": -46.333888888889,
-    "population": 418608,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Petrolina",
-    "country": "Brazil",
-    "lat": -9.3927777777778,
-    "lng": -40.507777777778,
-    "population": 418444,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Taraz",
-    "country": "Kazakhstan",
-    "lat": 42.883333333333,
-    "lng": 71.366666666667,
-    "population": 418368,
-    "difficulty": "hard"
-  },
-  {
-    "name": "Kolwezi",
-    "country": "Democratic Republic of the Congo",
-    "lat": -10.716666666667,
-    "lng": 25.466666666667,
-    "population": 418000,
-    "difficulty": "hard"
-  },
-  {
-    "name": "Luhansk",
-    "country": "Ukraine",
-    "lat": 48.5717084,
-    "lng": 39.2973153,
-    "population": 417990,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Takamatsu",
-    "country": "Japan",
-    "lat": 34.342805555556,
-    "lng": 134.04661111111,
-    "population": 417814,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Arusha",
-    "country": "Tanzania",
-    "lat": -3.3666666666667,
-    "lng": 36.683333333333,
-    "population": 416442,
-    "difficulty": "hard"
-  },
-  {
-    "name": "Jhang",
-    "country": "Pakistan",
-    "lat": 31.268055555556,
-    "lng": 72.318055555556,
-    "population": 414131,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Boa Vista",
-    "country": "Brazil",
-    "lat": 2.82,
-    "lng": -60.671944444444,
-    "population": 413486,
-    "difficulty": "easy"
-  },
-  {
     "name": "Tulsa",
     "country": "United States",
     "lat": 36.131388888889,
@@ -6040,108 +5584,12 @@ const cities = [
     "difficulty": "easy"
   },
   {
-    "name": "Toyama",
-    "country": "Japan",
-    "lat": 36.695916666667,
-    "lng": 137.21369444444,
-    "population": 413028,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Tver",
-    "country": "Russia",
-    "lat": 56.857827777778,
-    "lng": 35.921927777778,
-    "population": 412806,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Sanandaj",
-    "country": "Iran",
-    "lat": 35.309722222222,
-    "lng": 46.998888888889,
-    "population": 412767,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Tirunelveli",
-    "country": "India",
-    "lat": 8.7288888888889,
-    "lng": 77.708055555556,
-    "population": 411298,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Pasto",
-    "country": "Colombia",
-    "lat": 1.21,
-    "lng": -77.274722222222,
-    "population": 410835,
-    "difficulty": "medium"
-  },
-  {
     "name": "Panama City",
     "country": "Panama",
     "lat": 8.9711111111111,
     "lng": -79.534722222222,
     "population": 410354,
     "difficulty": "medium"
-  },
-  {
-    "name": "Bhagalpur",
-    "country": "India",
-    "lat": 25.25,
-    "lng": 87.016666666667,
-    "population": 410210,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Maringá",
-    "country": "Brazil",
-    "lat": -23.425,
-    "lng": -51.938888888889,
-    "population": 409657,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Santa Fe",
-    "country": "Argentina",
-    "lat": -31.633333333333,
-    "lng": -60.7,
-    "population": 408572,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Magnitogorsk",
-    "country": "Russia",
-    "lat": 53.383333333333,
-    "lng": 59.033333333333,
-    "population": 408487,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Zaria",
-    "country": "Nigeria",
-    "lat": 11.066666666667,
-    "lng": 7.7,
-    "population": 408198,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Đà Lạt",
-    "country": "Vietnam",
-    "lat": 11.94,
-    "lng": 108.4375,
-    "population": 406105,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Caruaru",
-    "country": "Brazil",
-    "lat": -8.2827777777778,
-    "lng": -35.975833333333,
-    "population": 405408,
-    "difficulty": "easy"
   },
   {
     "name": "Bakersfield",
@@ -6160,107 +5608,11 @@ const cities = [
     "difficulty": "hard"
   },
   {
-    "name": "Jundiaí",
-    "country": "Brazil",
-    "lat": -23.186388888889,
-    "lng": -46.884166666667,
-    "population": 401896,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Tarlac City",
-    "country": "Philippines",
-    "lat": 15.486944444444,
-    "lng": 120.59,
-    "population": 401892,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Aswan",
-    "country": "Egypt",
-    "lat": 24.088919444444,
-    "lng": 32.899730555556,
-    "population": 401890,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Bogura",
-    "country": "Bangladesh",
-    "lat": 24.85,
-    "lng": 89.366666666667,
-    "population": 400983,
-    "difficulty": "hard"
-  },
-  {
-    "name": "Gifu",
-    "country": "Japan",
-    "lat": 35.42625,
-    "lng": 136.75944444444,
-    "population": 400118,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Montería",
-    "country": "Colombia",
-    "lat": 8.76,
-    "lng": -75.885555555556,
-    "population": 400000,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Dera Ghazi Khan",
-    "country": "Pakistan",
-    "lat": 30.05,
-    "lng": 70.633333333333,
-    "population": 399064,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Anápolis",
-    "country": "Brazil",
-    "lat": -16.326944444444,
-    "lng": -48.952777777778,
-    "population": 398869,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Kisumu",
-    "country": "Kenya",
-    "lat": -0.1,
-    "lng": 34.75,
-    "population": 397957,
-    "difficulty": "medium"
-  },
-  {
-    "name": "Kikwit",
-    "country": "Democratic Republic of the Congo",
-    "lat": -5.0333333333333,
-    "lng": 18.816666666667,
-    "population": 397737,
-    "difficulty": "hard"
-  },
-  {
     "name": "Wichita",
     "country": "United States",
     "lat": 37.688888888889,
     "lng": -97.336111111111,
     "population": 397532,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Miyazaki",
-    "country": "Japan",
-    "lat": 31.907722222222,
-    "lng": 131.42019444444,
-    "population": 397476,
-    "difficulty": "easy"
-  },
-  {
-    "name": "Kollam",
-    "country": "India",
-    "lat": 8.8852777777778,
-    "lng": 76.586388888889,
-    "population": 397419,
     "difficulty": "easy"
   },
   {
@@ -6270,6 +5622,46 @@ const cities = [
     "lng": 19.818055555556,
     "population": 389323,
     "difficulty": "hard"
+  },
+  {
+    "name": "Tampa",
+    "country": "United States",
+    "lat": 27.9475,
+    "lng": -82.458611111111,
+    "population": 384959,
+    "difficulty": "easy"
+  },
+  {
+    "name": "New Orleans",
+    "country": "United States",
+    "lat": 29.976111111111,
+    "lng": -90.078333333333,
+    "population": 383997,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Cleveland",
+    "country": "United States",
+    "lat": 41.499166666667,
+    "lng": -81.694722222222,
+    "population": 372624,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Honolulu",
+    "country": "United States",
+    "lat": 21.304722222222,
+    "lng": -157.85722222222,
+    "population": 350964,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Anaheim",
+    "country": "United States",
+    "lat": 33.836111111111,
+    "lng": -117.88972222222,
+    "population": 346824,
+    "difficulty": "easy"
   },
   {
     "name": "Maseru",
@@ -6312,12 +5704,36 @@ const cities = [
     "difficulty": "hard"
   },
   {
+    "name": "Lexington",
+    "country": "United States",
+    "lat": 38.049722222222,
+    "lng": -84.458611111111,
+    "population": 322570,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Stockton",
+    "country": "United States",
+    "lat": 37.9575,
+    "lng": -121.2925,
+    "population": 320804,
+    "difficulty": "easy"
+  },
+  {
     "name": "Varna",
     "country": "Bulgaria",
     "lat": 43.211375,
     "lng": 27.91108,
     "population": 318737,
     "difficulty": "hard"
+  },
+  {
+    "name": "Corpus Christi",
+    "country": "United States",
+    "lat": 27.742777777778,
+    "lng": -97.401944444444,
+    "population": 317863,
+    "difficulty": "easy"
   },
   {
     "name": "Port Moresby",
@@ -6328,11 +5744,35 @@ const cities = [
     "difficulty": "hard"
   },
   {
+    "name": "Riverside",
+    "country": "United States",
+    "lat": 33.982222222222,
+    "lng": -117.3725,
+    "population": 314998,
+    "difficulty": "easy"
+  },
+  {
     "name": "Thessaloniki",
     "country": "Greece",
     "lat": 40.640277777778,
     "lng": 22.935555555556,
     "population": 309617,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Cincinnati",
+    "country": "United States",
+    "lat": 39.1,
+    "lng": -84.5125,
+    "population": 309317,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Orlando",
+    "country": "United States",
+    "lat": 28.533611111111,
+    "lng": -81.386666666667,
+    "population": 307573,
     "difficulty": "easy"
   },
   {
@@ -6342,6 +5782,30 @@ const cities = [
     "lng": 23.933333333333,
     "population": 305120,
     "difficulty": "hard"
+  },
+  {
+    "name": "Pittsburgh",
+    "country": "United States",
+    "lat": 40.441666666667,
+    "lng": -80.0,
+    "population": 302971,
+    "difficulty": "easy"
+  },
+  {
+    "name": "St. Louis",
+    "country": "United States",
+    "lat": 38.626388888889,
+    "lng": -90.199444444444,
+    "population": 301578,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Greensboro",
+    "country": "United States",
+    "lat": 36.08,
+    "lng": -79.819444444444,
+    "population": 299035,
+    "difficulty": "easy"
   },
   {
     "name": "Manama",
@@ -6358,6 +5822,22 @@ const cities = [
     "lng": 15.438611111111,
     "population": 292630,
     "difficulty": "medium"
+  },
+  {
+    "name": "Anchorage",
+    "country": "United States",
+    "lat": 61.216666666667,
+    "lng": -149.89361111111,
+    "population": 291247,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Lincoln",
+    "country": "United States",
+    "lat": 40.809166666667,
+    "lng": -96.678055555556,
+    "population": 291082,
+    "difficulty": "easy"
   },
   {
     "name": "Aarhus",
@@ -6384,6 +5864,14 @@ const cities = [
     "difficulty": "hard"
   },
   {
+    "name": "Plano",
+    "country": "United States",
+    "lat": 33.05,
+    "lng": -96.75,
+    "population": 285494,
+    "difficulty": "easy"
+  },
+  {
     "name": "Ljubljana",
     "country": "Slovenia",
     "lat": 46.051388888889,
@@ -6392,12 +5880,36 @@ const cities = [
     "difficulty": "hard"
   },
   {
+    "name": "Durham",
+    "country": "United States",
+    "lat": 35.994166666667,
+    "lng": -78.898611111111,
+    "population": 283506,
+    "difficulty": "easy"
+  },
+  {
     "name": "Ostrava",
     "country": "Czech Republic",
     "lat": 49.835555555556,
     "lng": 18.2925,
     "population": 283187,
     "difficulty": "hard"
+  },
+  {
+    "name": "Buffalo",
+    "country": "United States",
+    "lat": 42.886388888889,
+    "lng": -78.878055555556,
+    "population": 278349,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Chandler",
+    "country": "United States",
+    "lat": 33.303333333333,
+    "lng": -111.84138888889,
+    "population": 275987,
+    "difficulty": "easy"
   },
   {
     "name": "Sarajevo",
@@ -6416,6 +5928,54 @@ const cities = [
     "difficulty": "hard"
   },
   {
+    "name": "Toledo",
+    "country": "United States",
+    "lat": 41.652777777778,
+    "lng": -83.537777777778,
+    "population": 270871,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Madison",
+    "country": "United States",
+    "lat": 43.074722222222,
+    "lng": -89.384166666667,
+    "population": 269840,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Reno",
+    "country": "United States",
+    "lat": 39.526111111111,
+    "lng": -119.81266666667,
+    "population": 264165,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Fort Wayne",
+    "country": "United States",
+    "lat": 41.08045,
+    "lng": -85.13915,
+    "population": 263886,
+    "difficulty": "easy"
+  },
+  {
+    "name": "St. Petersburg",
+    "country": "United States",
+    "lat": 27.773055555556,
+    "lng": -82.64,
+    "population": 258308,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Lubbock",
+    "country": "United States",
+    "lat": 33.585,
+    "lng": -101.845,
+    "population": 257141,
+    "difficulty": "easy"
+  },
+  {
     "name": "Tampere",
     "country": "Finland",
     "lat": 61.498055555556,
@@ -6424,12 +5984,52 @@ const cities = [
     "difficulty": "medium"
   },
   {
+    "name": "Laredo",
+    "country": "United States",
+    "lat": 27.506111111111,
+    "lng": -99.507222222222,
+    "population": 255205,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Winston-Salem",
+    "country": "United States",
+    "lat": 36.1025,
+    "lng": -80.260555555556,
+    "population": 249545,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Chesapeake",
+    "country": "United States",
+    "lat": 36.767398,
+    "lng": -76.287405,
+    "population": 249422,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Louisville",
+    "country": "United States",
+    "lat": 38.256111111111,
+    "lng": -85.751388888889,
+    "population": 246161,
+    "difficulty": "easy"
+  },
+  {
     "name": "Gaborone",
     "country": "Botswana",
     "lat": -24.656944444444,
     "lng": 25.908611111111,
     "population": 235884,
     "difficulty": "hard"
+  },
+  {
+    "name": "Boise",
+    "country": "United States",
+    "lat": 43.613611111111,
+    "lng": -116.23777777778,
+    "population": 235684,
+    "difficulty": "easy"
   },
   {
     "name": "Georgetown",
@@ -6448,12 +6048,52 @@ const cities = [
     "difficulty": "medium"
   },
   {
+    "name": "Fremont",
+    "country": "United States",
+    "lat": 37.548611111111,
+    "lng": -121.98833333333,
+    "population": 230504,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Spokane",
+    "country": "United States",
+    "lat": 47.657194444444,
+    "lng": -117.4235,
+    "population": 228989,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Santa Clarita",
+    "country": "United States",
+    "lat": 34.3916641,
+    "lng": -118.542586,
+    "population": 228673,
+    "difficulty": "easy"
+  },
+  {
     "name": "Nassau",
     "country": "The Bahamas",
     "lat": 25.078055555556,
     "lng": -77.338611111111,
     "population": 227940,
     "difficulty": "medium"
+  },
+  {
+    "name": "Baton Rouge",
+    "country": "United States",
+    "lat": 30.4475,
+    "lng": -91.178611111111,
+    "population": 227470,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Richmond",
+    "country": "United States",
+    "lat": 37.540833333333,
+    "lng": -77.436666666667,
+    "population": 226610,
+    "difficulty": "easy"
   },
   {
     "name": "Paramaribo",
@@ -6488,12 +6128,92 @@ const cities = [
     "difficulty": "hard"
   },
   {
+    "name": "Tacoma",
+    "country": "United States",
+    "lat": 47.2525,
+    "lng": -122.4475,
+    "population": 219346,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Modesto",
+    "country": "United States",
+    "lat": 37.661388888889,
+    "lng": -120.99444444444,
+    "population": 218464,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Babylon",
+    "country": "United States",
+    "lat": 40.694444444444,
+    "lng": -73.329444444444,
+    "population": 218223,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Huntsville",
+    "country": "United States",
+    "lat": 34.713611111111,
+    "lng": -86.586111111111,
+    "population": 215006,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Des Moines",
+    "country": "United States",
+    "lat": 41.590833333333,
+    "lng": -93.620833333333,
+    "population": 214133,
+    "difficulty": "easy"
+  },
+  {
     "name": "Linz",
     "country": "Austria",
     "lat": 48.305833333333,
     "lng": 14.286388888889,
     "population": 211944,
     "difficulty": "medium"
+  },
+  {
+    "name": "Rochester",
+    "country": "United States",
+    "lat": 43.165555555556,
+    "lng": -77.611388888889,
+    "population": 211328,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Fayetteville",
+    "country": "United States",
+    "lat": 35.066666666667,
+    "lng": -78.9175,
+    "population": 208501,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Worcester",
+    "country": "United States",
+    "lat": 42.271388888889,
+    "lng": -71.798888888889,
+    "population": 206518,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Port St. Lucie",
+    "country": "United States",
+    "lat": 27.275833333333,
+    "lng": -80.355,
+    "population": 204851,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Little Rock",
+    "country": "United States",
+    "lat": 34.744444444444,
+    "lng": -92.288055555556,
+    "population": 202591,
+    "difficulty": "easy"
   },
   {
     "name": "Debrecen",
@@ -6504,12 +6224,140 @@ const cities = [
     "difficulty": "hard"
   },
   {
+    "name": "Augusta",
+    "country": "United States",
+    "lat": 33.47,
+    "lng": -81.975,
+    "population": 202081,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Oxnard",
+    "country": "United States",
+    "lat": 34.191388888889,
+    "lng": -119.1825,
+    "population": 202063,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Montgomery",
+    "country": "United States",
+    "lat": 32.3675,
+    "lng": -86.3,
+    "population": 200603,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Amarillo",
+    "country": "United States",
+    "lat": 35.199166666667,
+    "lng": -101.84527777778,
+    "population": 200393,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Salt Lake City",
+    "country": "United States",
+    "lat": 40.75,
+    "lng": -111.88333333333,
+    "population": 199723,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Grand Rapids",
+    "country": "United States",
+    "lat": 42.963333333333,
+    "lng": -85.667777777778,
+    "population": 198917,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Tallahassee",
+    "country": "United States",
+    "lat": 30.438333333333,
+    "lng": -84.280555555556,
+    "population": 196169,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Cape Coral",
+    "country": "United States",
+    "lat": 26.633333,
+    "lng": -81.983333,
+    "population": 194016,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Sioux Falls",
+    "country": "United States",
+    "lat": 43.546055555556,
+    "lng": -96.731388888889,
+    "population": 192517,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Providence",
+    "country": "United States",
+    "lat": 41.82399,
+    "lng": -71.41283,
+    "population": 190934,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Knoxville",
+    "country": "United States",
+    "lat": 35.961666666667,
+    "lng": -83.923333333333,
+    "population": 190740,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Akron",
+    "country": "United States",
+    "lat": 41.073055555556,
+    "lng": -81.517777777778,
+    "population": 190469,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Shreveport",
+    "country": "United States",
+    "lat": 32.508055555556,
+    "lng": -93.762777777778,
+    "population": 187593,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Mobile",
+    "country": "United States",
+    "lat": 30.727669444444,
+    "lng": -88.052672222222,
+    "population": 187041,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Newport News",
+    "country": "United States",
+    "lat": 37.070833333333,
+    "lng": -76.484444444444,
+    "population": 186247,
+    "difficulty": "easy"
+  },
+  {
     "name": "Odense",
     "country": "Denmark",
     "lat": 55.4,
     "lng": 10.383333333333,
     "population": 185480,
     "difficulty": "medium"
+  },
+  {
+    "name": "Fort Lauderdale",
+    "country": "United States",
+    "lat": 26.135833333333,
+    "lng": -80.141944444444,
+    "population": 182760,
+    "difficulty": "easy"
   },
   {
     "name": "Braga",
@@ -6520,11 +6368,43 @@ const cities = [
     "difficulty": "medium"
   },
   {
+    "name": "Chattanooga",
+    "country": "United States",
+    "lat": 35.045555555556,
+    "lng": -85.267222222222,
+    "population": 181099,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Eugene",
+    "country": "United States",
+    "lat": 44.052222222222,
+    "lng": -123.0925,
+    "population": 176654,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Oceanside",
+    "country": "United States",
+    "lat": 33.211666666667,
+    "lng": -117.32583333333,
+    "population": 174068,
+    "difficulty": "easy"
+  },
+  {
     "name": "Patras",
     "country": "Greece",
     "lat": 38.25,
     "lng": 21.733333333333,
     "population": 173600,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Lancaster",
+    "country": "United States",
+    "lat": 34.686944444444,
+    "lng": -118.15416666667,
+    "population": 173516,
     "difficulty": "easy"
   },
   {
