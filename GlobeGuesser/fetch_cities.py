@@ -132,6 +132,30 @@ def get_largest_cities_per_country():
         print(f"Error fetching largest cities: {e}")
         return {}
 
+def load_country_difficulty():
+    """Load country difficulty mapping from country_difficulty.js."""
+    try:
+        if not os.path.exists("country_difficulty.js"):
+            print("Warning: country_difficulty.js not found. Using default 'medium'.")
+            return {}
+        
+        with open("country_difficulty.js", "r", encoding="utf-8") as f:
+            content = f.read()
+            
+        # Extract the JSON object from the JS file
+        # It's expected to be 'const countryDifficulty = { ... };'
+        match = re.search(r'const countryDifficulty = ({.*?});', content, re.DOTALL)
+        if match:
+            json_str = match.group(1)
+            return json.loads(json_str)
+        else:
+            print("Warning: Could not parse country_difficulty.js. Using default 'medium'.")
+            return {}
+    except Exception as e:
+        print(f"Error loading country difficulty: {e}")
+        return {}
+
+
 def get_wikidata_cities():
     url = "https://query.wikidata.org/sparql"
     # We query for the top 10000 to get a good base to ensure we hit the US 30 and EU 3 per country caps
@@ -300,6 +324,7 @@ def main():
     reduced_cities = []
     seen_city_names = set()
     country_counts = {}
+    difficulty_mapping = load_country_difficulty()
     
     def add_city(city_obj):
         name = city_obj["name"]
@@ -307,14 +332,22 @@ def main():
             return False
             
         c_name = city_obj["country"]
+        
+        # Normalize country names for mapping
+        mapping_name = c_name
         if "China" in c_name or c_name == "People's Republic of China":
+            mapping_name = "People's Republic of China"
             if country_counts.get("China", 0) >= 3:
                 return False
             country_counts["China"] = country_counts.get("China", 0) + 1
         elif "United" in c_name and "States" in c_name:
+            mapping_name = "United States"
             country_counts["United States of America"] = country_counts.get("United States of America", 0) + 1
         else:
             country_counts[c_name] = country_counts.get(c_name, 0) + 1
+            
+        # Assign difficulty
+        city_obj["difficulty"] = difficulty_mapping.get(mapping_name, "medium")
             
         seen_city_names.add(name)
         reduced_cities.append(city_obj)
