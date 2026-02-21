@@ -8,7 +8,4 @@ GlobeGuesser is a game for testing and improving your geography knowledge. Given
 4. Open the terminal and run the command: `python -m http.server 8000`
 5. Open your browser and navigate to http://localhost:8000
 
-# Updating the Cities
-The program pulls the most populated city in each country, plus additional cities from the EU and the United States.
-To update the city list based on more recent data, open your terminal and run the command: `python fetch_cities.py --update`
 
