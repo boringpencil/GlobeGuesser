@@ -28,13 +28,18 @@
         <div id="ui-layer">
             <header class="top-bar">
                 <div class="logo">Globe<span>Guesser</span></div>
-                <div class="score-display">Total Score: <span id="total-score">0</span></div>
+                <div class="score-display">
+                    <span class="round-counter">Round: <span id="round-display">1/5</span></span>
+                    <span class="score-divider">|</span>
+                    Total Score: <span id="total-score">0</span>
+                </div>
             </header>
 
             <div id="game-card" class="glass-card active">
                 <h2>Find this city:</h2>
                 <h1 id="target-city">Loading...</h1>
                 <p id="target-country"></p>
+                <p id="target-hint" class="hint-text hidden"></p>
                 <div class="pulse-indicator">Tap anywhere on the map to guess</div>
             </div>
 
@@ -51,6 +56,17 @@
                     </div>
                 </div>
                 <button id="next-btn" class="primary-btn">Next Round</button>
+            </div>
+
+            <div id="game-over-card" class="glass-card hidden">
+                <h2>Game Over!</h2>
+                <div class="final-score-display">
+                    <span class="final-label">Average Score</span>
+                    <span id="final-average" class="final-value">0</span>
+                    <span class="final-max">/ 1000</span>
+                </div>
+                <p id="final-message">Great job exploring the globe!</p>
+                <button id="play-again-btn" class="primary-btn">Play Again</button>
             </div>
         </div>
     </div>

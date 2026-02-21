@@ -58,7 +58,8 @@ body {
     padding: 2rem;
 }
 
-header, .glass-card {
+header,
+.glass-card {
     pointer-events: auto;
 }
 
@@ -133,6 +134,7 @@ header, .glass-card {
     font-weight: 800;
     margin: 0.5rem 0;
     background: linear-gradient(135deg, #fff, #a5b4fc);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -160,9 +162,17 @@ h2 {
 }
 
 @keyframes pulse {
-    0% { opacity: 0.6; }
-    50% { opacity: 1; }
-    100% { opacity: 0.6; }
+    0% {
+        opacity: 0.6;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.6;
+    }
 }
 
 #result-title {
@@ -252,6 +262,7 @@ h2 {
     position: absolute;
     transform: translate(-50%, -50%);
 }
+
 .pin.actual {
     background: var(--primary);
     box-shadow: 0 0 10px rgba(79, 70, 229, 0.8);
@@ -269,8 +280,78 @@ h2 {
 }
 
 @keyframes ping {
-    75%, 100% {
+
+    75%,
+    100% {
         transform: translate(-50%, -50%) scale(2);
         opacity: 0;
     }
+}
+
+/* --- New elements --- */
+.score-divider {
+    color: var(--glass-border);
+    margin: 0 0.75rem;
+}
+
+.round-counter {
+    color: var(--text-muted);
+}
+
+#round-display {
+    color: var(--text-main);
+}
+
+.hint-text {
+    font-size: 0.95rem;
+    color: #FBBF24;
+    /* Amber/Yellow for hints */
+    font-style: italic;
+    background: rgba(251, 191, 36, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(251, 191, 36, 0.2);
+    display: inline-block;
+}
+
+.hint-text.hidden {
+    display: none;
+}
+
+/* End Game Card specific styles */
+.final-score-display {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.final-label {
+    display: block;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.final-value {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--accent);
+    line-height: 1;
+}
+
+.final-max {
+    font-size: 1.5rem;
+    color: var(--text-muted);
+    margin-left: 0.25rem;
+}
+
+#final-message {
+    font-size: 1.2rem;
+    color: var(--text-main);
+    margin-bottom: 2rem;
 }
