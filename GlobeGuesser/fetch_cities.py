@@ -18,7 +18,7 @@ def haversine_km(lat1, lon1, lat2, lon2):
     return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
 
-def dedup_nearby_cities(cities, threshold_km=50):
+def dedup_nearby_cities(cities, threshold_km=25):
     """Remove cities that overlap geographically (within threshold_km).
     
     When two cities are within the threshold distance, the one with the
@@ -43,6 +43,63 @@ def dedup_nearby_cities(cities, threshold_km=50):
     if removed:
         print(f"Dedup: removed {removed} cities that were within {threshold_km}km of a more populous city.")
     return kept
+
+
+def clean_city_name(name):
+    """Clean up a city name by removing common administrative suffixes/prefixes."""
+    import re
+
+    # Remove known suffixes (order matters — longer/more specific first)
+    suffixes = [
+        r"\s+Metropolitan Municipality$",
+        r"\s+Metropolitan Area$",
+        r"\s+metropolitan area$",
+        r"\s+urban area$",
+        r"-Capital Region$",
+        r"\s+Capital Region$",
+        r"\s+Province$",
+        r"\s+Prefecture$",
+        r"\s+District$",
+    ]
+    for pattern in suffixes:
+        name = re.sub(pattern, "", name)
+
+    # Remove "City of " prefix
+    if name.startswith("City of "):
+        name = name[len("City of "):]
+
+    # Remove "Greater " prefix
+    if name.startswith("Greater "):
+        name = name[len("Greater "):]
+
+    # Cities where "City" is part of the common name and should be kept
+    keep_city_suffix = {
+        "Mexico City", "New York City", "Oklahoma City", "Kansas City",
+        "Salt Lake City", "Panama City", "Ho Chi Minh City", "Quezon City",
+        "Guatemala City", "Kuwait City", "Cebu City", "Davao City",
+        "Zamboanga City", "Iloilo City", "Tarlac City", "Gaza City",
+        "Djibouti City", "Zanzibar City", "Hsinchu City",
+    }
+
+    # Remove trailing " city" or " City" (but not if it's a well-known "City" name)
+    if name not in keep_city_suffix:
+        name = re.sub(r"\s+[Cc]ity$", "", name)
+
+    return name.strip()
+
+
+def clean_all_city_names(cities):
+    """Apply name cleaning to all cities and report changes."""
+    renamed = 0
+    for city in cities:
+        cleaned = clean_city_name(city["name"])
+        if cleaned != city["name"]:
+            print(f"  Renamed: \"{city['name']}\" → \"{cleaned}\"")
+            city["name"] = cleaned
+            renamed += 1
+    if renamed:
+        print(f"Cleaned {renamed} city name(s).")
+    return cities
 
 def get_largest_cities_per_country():
     url = "https://www.everycountryintheworld.com/largestcities/"
@@ -286,7 +343,7 @@ def main():
                 
     # 4. Fill up to 300 with remaining top populated globally
     for city in final_cities:
-        if len(reduced_cities) >= 300:
+        if len(reduced_cities) >= 1000:
             break
         add_city(city)
         
@@ -294,6 +351,9 @@ def main():
 
     # Remove overlapping cities (e.g. "Manhattan" & "NYC"), keeping the most populous
     reduced_cities = dedup_nearby_cities(reduced_cities)
+
+    # Clean up city names (remove "Metropolitan Municipality", "Greater", etc.)
+    reduced_cities = clean_all_city_names(reduced_cities)
 
     with open("cities.js", "w", encoding="utf-8") as f:
         f.write("const cities = " + json.dumps(reduced_cities, indent=2, ensure_ascii=False) + ";\n")
