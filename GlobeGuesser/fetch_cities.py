@@ -4,6 +4,45 @@ import json
 import re
 import argparse
 import os
+import math
+
+
+def haversine_km(lat1, lon1, lat2, lon2):
+    """Calculate the great-circle distance between two points on Earth in km."""
+    R = 6371  # Earth radius in km
+    dlat = math.radians(lat2 - lat1)
+    dlon = math.radians(lon2 - lon1)
+    a = (math.sin(dlat / 2) ** 2 +
+         math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) *
+         math.sin(dlon / 2) ** 2)
+    return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+
+
+def dedup_nearby_cities(cities, threshold_km=50):
+    """Remove cities that overlap geographically (within threshold_km).
+    
+    When two cities are within the threshold distance, the one with the
+    higher population is kept and the other is discarded.
+    Cities are processed in descending population order so the most
+    populous city in any cluster always survives.
+    """
+    # Sort by population descending so the biggest city wins ties
+    sorted_cities = sorted(cities, key=lambda c: c["population"], reverse=True)
+    kept = []
+    for city in sorted_cities:
+        too_close = False
+        for existing in kept:
+            dist = haversine_km(city["lat"], city["lng"],
+                                existing["lat"], existing["lng"])
+            if dist < threshold_km:
+                too_close = True
+                break
+        if not too_close:
+            kept.append(city)
+    removed = len(cities) - len(kept)
+    if removed:
+        print(f"Dedup: removed {removed} cities that were within {threshold_km}km of a more populous city.")
+    return kept
 
 def get_largest_cities_per_country():
     url = "https://www.everycountryintheworld.com/largestcities/"
@@ -252,6 +291,9 @@ def main():
         add_city(city)
         
     reduced_cities.sort(key=lambda x: x["population"], reverse=True)
+
+    # Remove overlapping cities (e.g. "Manhattan" & "NYC"), keeping the most populous
+    reduced_cities = dedup_nearby_cities(reduced_cities)
 
     with open("cities.js", "w", encoding="utf-8") as f:
         f.write("const cities = " + json.dumps(reduced_cities, indent=2, ensure_ascii=False) + ";\n")

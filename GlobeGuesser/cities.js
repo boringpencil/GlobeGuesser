@@ -182,25 +182,11 @@ const cities = [
     "population": 9305000
   },
   {
-    "name": "Mexico City",
-    "country": "Mexico",
-    "lat": 19.353773,
-    "lng": -99.13589,
-    "population": 9209944
-  },
-  {
     "name": "Kuala Lumpur",
     "country": "Malaysia",
     "lat": 3.1477777777778,
     "lng": 101.69527777778,
     "population": 9000280
-  },
-  {
-    "name": "New York City",
-    "country": "United States",
-    "lat": 40.712777777778,
-    "lng": -74.006111111111,
-    "population": 8804190
   },
   {
     "name": "London",
@@ -271,13 +257,6 @@ const cities = [
     "lat": -33.4375,
     "lng": -70.65,
     "population": 6257516
-  },
-  {
-    "name": "Rio de Janeiro",
-    "country": "Brazil",
-    "lat": -22.911111111111,
-    "lng": -43.205555555556,
-    "population": 6211223
   },
   {
     "name": "Prayagraj",
@@ -392,13 +371,6 @@ const cities = [
     "population": 4949347
   },
   {
-    "name": "Johannesburg",
-    "country": "South Africa",
-    "lat": -26.204361111111,
-    "lng": 28.041638888889,
-    "population": 4803262
-  },
-  {
     "name": "Dar es Salaam",
     "country": "Tanzania",
     "lat": -6.8161111111111,
@@ -427,17 +399,10 @@ const cities = [
     "population": 4493242
   },
   {
-    "name": "Giza",
-    "country": "Egypt",
-    "lat": 29.987,
-    "lng": 31.2118,
-    "population": 4458135
-  },
-  {
     "name": "Kano",
     "country": "Nigeria",
-    "lat": 12.0022,
-    "lng": 8.592,
+    "lat": 12.0,
+    "lng": 8.5166666666667,
     "population": 4348000
   },
   {
@@ -497,20 +462,6 @@ const cities = [
     "population": 3776313
   },
   {
-    "name": "Yokohama",
-    "country": "Japan",
-    "lat": 35.433333333333,
-    "lng": 139.65,
-    "population": 3757630
-  },
-  {
-    "name": "City of Cape Town",
-    "country": "South Africa",
-    "lat": -34.0,
-    "lng": 18.5,
-    "population": 3740026
-  },
-  {
     "name": "eThekwini Metropolitan Municipality",
     "country": "South Africa",
     "lat": -29.866666666667,
@@ -544,20 +495,6 @@ const cities = [
     "lat": 26.847,
     "lng": 80.947,
     "population": 3382000
-  },
-  {
-    "name": "City of Ekurhuleni Metropolitan Municipality",
-    "country": "South Africa",
-    "lat": -26.1989,
-    "lng": 28.31262,
-    "population": 3379104
-  },
-  {
-    "name": "Madrid city",
-    "country": "Spain",
-    "lat": 40.4165,
-    "lng": -3.70256,
-    "population": 3332035
   },
   {
     "name": "City of Tshwane Metropolitan Municipality",
@@ -595,13 +532,6 @@ const cities = [
     "population": 3151676
   },
   {
-    "name": "Buenos Aires",
-    "country": "Argentina",
-    "lat": -34.599722222222,
-    "lng": -58.381944444444,
-    "population": 3121707
-  },
-  {
     "name": "Jaipur",
     "country": "India",
     "lat": 26.915,
@@ -614,13 +544,6 @@ const cities = [
     "lat": 26.4725,
     "lng": 80.331111111111,
     "population": 3067700
-  },
-  {
-    "name": "Incheon",
-    "country": "South Korea",
-    "lat": 37.463888888889,
-    "lng": 126.64861111111,
-    "population": 3049315
   },
   {
     "name": "Taichung",
@@ -691,13 +614,6 @@ const cities = [
     "lat": 16.069444444444,
     "lng": 108.20972222222,
     "population": 2819900
-  },
-  {
-    "name": "Omdurman",
-    "country": "Sudan",
-    "lat": 15.683517,
-    "lng": 32.462887,
-    "population": 2805396
   },
   {
     "name": "Toronto",
@@ -847,13 +763,6 @@ const cities = [
     "population": 2150000
   },
   {
-    "name": "Brazzaville",
-    "country": "Republic of the Congo",
-    "lat": -4.2694444444444,
-    "lng": 15.271111111111,
-    "population": 2145783
-  },
-  {
     "name": "Phnom Penh",
     "country": "Cambodia",
     "lat": 11.569583333333,
@@ -938,13 +847,6 @@ const cities = [
     "population": 1716961
   },
   {
-    "name": "Manhattan",
-    "country": "United States",
-    "lat": 40.728333333333,
-    "lng": -73.994166666667,
-    "population": 1694251
-  },
-  {
     "name": "Budapest",
     "country": "Hungary",
     "lat": 47.498333333333,
@@ -992,13 +894,6 @@ const cities = [
     "lat": 13.515,
     "lng": 2.1175,
     "population": 1496260
-  },
-  {
-    "name": "The Bronx",
-    "country": "United States",
-    "lat": 40.846666666667,
-    "lng": -73.873333333333,
-    "population": 1472654
   },
   {
     "name": "Auckland",
@@ -1274,13 +1169,6 @@ const cities = [
     "population": 921468
   },
   {
-    "name": "Fort Worth",
-    "country": "United States",
-    "lat": 32.756388888889,
-    "lng": -97.3325,
-    "population": 918915
-  },
-  {
     "name": "Naples",
     "country": "Italy",
     "lat": 40.835833333333,
@@ -1407,13 +1295,6 @@ const cities = [
     "population": 681054
   },
   {
-    "name": "El Paso",
-    "country": "United States",
-    "lat": 31.759166666667,
-    "lng": -106.48861111111,
-    "population": 678815
-  },
-  {
     "name": "Boston",
     "country": "United States",
     "lat": 42.360277777778,
@@ -1505,32 +1386,11 @@ const cities = [
     "population": 581475
   },
   {
-    "name": "The Hague",
-    "country": "Netherlands",
-    "lat": 52.08,
-    "lng": 4.31,
-    "population": 548320
-  },
-  {
     "name": "Lisbon",
     "country": "Portugal",
     "lat": 38.708042,
     "lng": -9.139016,
     "population": 545796
-  },
-  {
-    "name": "Antwerp",
-    "country": "Belgium",
-    "lat": 51.221111111111,
-    "lng": 4.3997222222222,
-    "population": 529247
-  },
-  {
-    "name": "Dublin City",
-    "country": "Ireland",
-    "lat": 53.35512,
-    "lng": -6.24922,
-    "population": 506211
   },
   {
     "name": "Juba",
@@ -1610,13 +1470,6 @@ const cities = [
     "population": 343541
   },
   {
-    "name": "Malmö",
-    "country": "Sweden",
-    "lat": 55.583333333333,
-    "lng": 13.0,
-    "population": 339316
-  },
-  {
     "name": "San José",
     "country": "Costa Rica",
     "lat": 9.9327388888889,
@@ -1650,13 +1503,6 @@ const cities = [
     "lat": -9.4788888888889,
     "lng": 147.14944444444,
     "population": 317374
-  },
-  {
-    "name": "Espoo",
-    "country": "Finland",
-    "lat": 60.205555555556,
-    "lng": 24.655555555556,
-    "population": 314821
   },
   {
     "name": "Thessaloniki",
@@ -1820,13 +1666,6 @@ const cities = [
     "population": 185480
   },
   {
-    "name": "Braga",
-    "country": "Portugal",
-    "lat": 41.550277777778,
-    "lng": -8.42,
-    "population": 181494
-  },
-  {
     "name": "Patras",
     "country": "Greece",
     "lat": 38.25,
@@ -1909,13 +1748,6 @@ const cities = [
     "lat": 46.55,
     "lng": 15.633333333333,
     "population": 114301
-  },
-  {
-    "name": "Petržalka",
-    "country": "Slovakia",
-    "lat": 48.133333333333,
-    "lng": 17.116666666667,
-    "population": 112380
   },
   {
     "name": "Manzini",
@@ -2091,12 +1923,5 @@ const cities = [
     "lat": 47.166666666667,
     "lng": 9.5166666666667,
     "population": 5998
-  },
-  {
-    "name": "Brussels",
-    "country": "Belgium",
-    "lat": 50.84668,
-    "lng": 4.3525,
-    "population": 0
   }
 ];
