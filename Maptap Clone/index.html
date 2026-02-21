@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobeGuesser</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app-container">
+        <!-- The Map -->
+        <div id="map"></div>
+
+        <!-- UI Overlay -->
+        <div id="ui-layer">
+            <header class="top-bar">
+                <div class="logo">Globe<span>Guesser</span></div>
+                <div class="score-display">Total Score: <span id="total-score">0</span></div>
+            </header>
+
+            <div id="game-card" class="glass-card active">
+                <h2>Find this city:</h2>
+                <h1 id="target-city">Loading...</h1>
+                <p id="target-country"></p>
+                <div class="pulse-indicator">Tap anywhere on the map to guess</div>
+            </div>
+
+            <div id="result-card" class="glass-card hidden">
+                <h2 id="result-title">Good Guess!</h2>
+                <div class="stats">
+                    <div class="stat-box">
+                        <span class="stat-label">Distance</span>
+                        <span id="result-distance" class="stat-value">0 km</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-label">Points</span>
+                        <span id="result-points" class="stat-value">+0</span>
+                    </div>
+                </div>
+                <button id="next-btn" class="primary-btn">Next Round</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="cities.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
