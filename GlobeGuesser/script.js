@@ -13,6 +13,7 @@ let currentRound = 1;
 let currentCity = null;
 let roundActive = false;
 let usedCities = new Set();
+let usedCountries = new Set();
 let map, markerActual, markerGuess, linePoly;
 
 // --- DOM Elements ---
@@ -52,27 +53,49 @@ function initMap() {
 
 function selectCityForRound(round) {
     let candidates = [];
+    let targetDiff = null;
 
-    // Round 1: US City
+    // Round 1: US City (country is fixed)
     if (round === 1) {
         candidates = cities.filter(c => c.country === "United States");
     }
     // Round 2: Easy City
     else if (round === 2) {
-        candidates = cities.filter(c => c.difficulty === "easy");
+        targetDiff = "easy";
     }
     // Round 3: Medium City
     else if (round === 3) {
-        candidates = cities.filter(c => c.difficulty === "medium");
+        targetDiff = "medium";
     }
     // Round 4: 50/50 Medium or Hard
     else if (round === 4) {
-        const targetDiff = Math.random() < 0.5 ? "medium" : "hard";
-        candidates = cities.filter(c => c.difficulty === targetDiff);
+        targetDiff = Math.random() < 0.5 ? "medium" : "hard";
     }
     // Round 5: Hard City
     else if (round === 5) {
-        candidates = cities.filter(c => c.difficulty === "hard");
+        targetDiff = "hard";
+    }
+
+    // For rounds 2-5, pick a random country first, then a city within it
+    if (targetDiff) {
+        const diffCities = cities.filter(c => c.difficulty === targetDiff && !usedCities.has(c.name));
+
+        // Get unique countries that have available cities of this difficulty
+        let countries = [...new Set(diffCities.map(c => c.country))];
+
+        // Prefer countries we haven't used yet
+        const freshCountries = countries.filter(c => !usedCountries.has(c));
+        if (freshCountries.length > 0) {
+            countries = freshCountries;
+        }
+
+        if (countries.length > 0) {
+            const randomCountry = countries[Math.floor(Math.random() * countries.length)];
+            candidates = diffCities.filter(c => c.country === randomCountry);
+        } else {
+            // Fallback: all cities of this difficulty (including used)
+            candidates = cities.filter(c => c.difficulty === targetDiff);
+        }
     }
 
     // Filter out used cities if possible
@@ -89,6 +112,7 @@ function selectCityForRound(round) {
     const randomIndex = Math.floor(Math.random() * available.length);
     const selected = available[randomIndex];
     usedCities.add(selected.name);
+    usedCountries.add(selected.country);
     return selected;
 }
 
@@ -229,6 +253,7 @@ playAgainBtn.addEventListener('click', () => {
     totalScore = 0;
     currentRound = 1;
     usedCities.clear();
+    usedCountries.clear();
     totalScoreEl.textContent = "0";
 
     startRound();
