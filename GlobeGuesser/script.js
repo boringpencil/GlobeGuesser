@@ -2,6 +2,26 @@
 const MAX_SCORE = 1000;
 const DECAY_CONSTANT = 2000000; // 2000 km decay
 const MAX_ROUNDS = 5;
+const COUNTRIES_GEOJSON_URL = 'https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson';
+
+// Mapping from cities.js country names to GeoJSON ADMIN property names
+const COUNTRY_NAME_MAP = {
+    "People's Republic of China": "China",
+    "United States": "United States of America",
+    "South Korea": "South Korea",
+    "North Korea": "North Korea",
+    "Ivory Coast": "Ivory Coast",
+    "Democratic Republic of the Congo": "Democratic Republic of the Congo",
+    "Republic of the Congo": "Republic of the Congo",
+    "Taiwan": "Taiwan",
+    "Turkey": "Turkey",
+    "Myanmar": "Myanmar",
+    "Somaliland": "Somaliland",
+    "The Bahamas": "The Bahamas",
+    "Timor-Leste": "East Timor",
+    "Czech Republic": "Czech Republic",
+    "Guinea-Bissau": "Guinea Bissau",
+};
 
 if (typeof cities === 'undefined' || cities.length === 0) {
     console.error("cities.js failed to load or is empty.");
@@ -15,6 +35,8 @@ let roundActive = false;
 let usedCities = new Set();
 let usedCountries = new Set();
 let map, markerActual, markerGuess, linePoly;
+let countryBorderLayer = null;
+let countriesGeoJSON = null;
 
 // --- DOM Elements ---
 const totalScoreEl = document.getElementById('total-score');
@@ -48,7 +70,56 @@ function initMap() {
 
     map.on('click', handleMapClick);
 
+    // Fetch country border GeoJSON in the background
+    fetch(COUNTRIES_GEOJSON_URL)
+        .then(res => res.json())
+        .then(data => {
+            countriesGeoJSON = data;
+            console.log('Country borders loaded:', data.features.length, 'countries');
+        })
+        .catch(err => console.warn('Could not load country borders:', err));
+
     startRound();
+}
+
+function showCountryBorder(countryName) {
+    if (!countriesGeoJSON) return;
+
+    // Map our country name to the GeoJSON property name
+    const geoName = COUNTRY_NAME_MAP[countryName] || countryName;
+
+    const feature = countriesGeoJSON.features.find(f => {
+        const props = f.properties;
+        const admin = (props.ADMIN || '').toLowerCase();
+        const name = (props.name || '').toLowerCase();
+        const target = geoName.toLowerCase();
+        const original = countryName.toLowerCase();
+        return admin === target || admin === original ||
+            name === target || name === original;
+    });
+
+    if (!feature) {
+        console.warn('Country border not found for:', countryName, '(mapped to:', geoName + ')');
+        return;
+    }
+
+    countryBorderLayer = L.geoJSON(feature, {
+        style: {
+            color: '#10B981',
+            weight: 3,
+            opacity: 0.9,
+            fillColor: '#10B981',
+            fillOpacity: 0.1,
+            dashArray: '6, 4'
+        }
+    }).addTo(map);
+}
+
+function removeCountryBorder() {
+    if (countryBorderLayer) {
+        map.removeLayer(countryBorderLayer);
+        countryBorderLayer = null;
+    }
 }
 
 function selectCityForRound(round) {
@@ -120,6 +191,7 @@ function startRound() {
     if (markerActual) map.removeLayer(markerActual);
     if (markerGuess) map.removeLayer(markerGuess);
     if (linePoly) map.removeLayer(linePoly);
+    removeCountryBorder();
 
     map.flyTo([20, 0], 2, { duration: 1 });
 
@@ -152,6 +224,9 @@ function handleMapClick(e) {
     if (!roundActive) return;
 
     roundActive = false;
+
+    // Show the country name next to the city name
+    targetCountryEl.textContent = currentCity.country;
 
     const guessLatLng = e.latlng;
     const actualLatLng = L.latLng(currentCity.lat, currentCity.lng);
@@ -191,7 +266,9 @@ function handleMapClick(e) {
         duration: 1.5
     });
 
+    // Show country border after the map animation
     setTimeout(() => {
+        showCountryBorder(currentCity.country);
         showResults(distanceKm, points);
     }, 1800);
 }

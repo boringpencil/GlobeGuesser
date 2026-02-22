@@ -5960,14 +5960,6 @@ const cities = [
     "difficulty": "easy"
   },
   {
-    "name": "St. Petersburg",
-    "country": "United States",
-    "lat": 27.773055555556,
-    "lng": -82.64,
-    "population": 258308,
-    "difficulty": "easy"
-  },
-  {
     "name": "Lubbock",
     "country": "United States",
     "lat": 33.585,
